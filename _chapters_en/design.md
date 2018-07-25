@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Lesson Design"
-permalink: /design/
+permalink: "/en/design/"
 ---
 
 ## Contents

@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "Instructors' Guide"
-permalink: /guide/
+permalink: "/en/guide/"
 ---
 
 ## General Notes

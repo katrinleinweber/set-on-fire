@@ -46,6 +46,7 @@ defaults:
       type: chapters_en
     values:
       language: "en"
+      layout: "default"
 
 # Order for Table of Contents.
 toc:

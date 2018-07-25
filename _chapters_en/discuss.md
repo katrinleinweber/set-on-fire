@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Discussion
-permalink: /discuss/
+permalink: "/en/discuss/"
 ---
 
 ## When *Not* to Use Version Control

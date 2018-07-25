@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: .
+root: true
 ---
 This one-day class will introduce participants to the basics of software project management
 with a particular focus on the sorts of projects commonly found in research settings.
