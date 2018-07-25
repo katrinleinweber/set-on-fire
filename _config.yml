@@ -51,12 +51,25 @@ defaults:
 toc:
   lessons:
   - /intro/
-  - /mechanics/
-  - /teams/
-  - /process/
-  - /tooling/
-  - /design/
-  - /wrapup/
+  - /project/
+  - /versioning/
+  - /hosting/
+  - /automation/
+  - /robust/
+  - /issues/
+  - /license/
+  - /packaging/
+  - /review/
+  - /testing/
+  - /continuous/
+  - /agile/
+  - /sturdy/
+  - /tdd/
+  - /compromise/
+  - /community/
+  - /mentor/
+  - /governance/
+  - /marketing/
   - /finale/
   extras:
   - /license/
@@ -64,7 +77,7 @@ toc:
   - /citation/
   - /bib/
   - /gloss/
-  - /peereval/
+  - /guide/
 
 # Translations by language.
 translations:
