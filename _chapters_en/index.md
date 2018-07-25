@@ -1,4 +1,5 @@
 ---
+permalink: "/en/"
 root: true
 ---
 This one-day class will introduce participants to the basics of software project management

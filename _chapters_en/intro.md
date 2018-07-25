@@ -1,4 +1,5 @@
 ---
+permalink: "/en/intro/"
 title: "Introduction"
 teaching: 10
 exercises: 10

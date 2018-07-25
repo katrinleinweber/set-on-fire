@@ -1,4 +1,5 @@
 ---
+permalink: "/en/automation/"
 title: "Automate Frequent Tasks"
 teaching: 10
 exercises: 10

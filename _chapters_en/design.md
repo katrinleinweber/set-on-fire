@@ -1,6 +1,6 @@
 ---
-title: "Lesson Design"
 permalink: "/en/design/"
+title: "Lesson Design"
 ---
 
 ## Contents

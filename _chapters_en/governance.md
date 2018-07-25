@@ -1,5 +1,6 @@
 ---
-title: "Building an Organization"
+permalink: "/en/governance/"
+title: "Governance"
 teaching: 15
 exercises: 10
 questions:

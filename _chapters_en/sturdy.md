@@ -1,4 +1,5 @@
 ---
+permalink: "/en/sturdy/"
 title: "Sturdy Development"
 teaching: 5
 exercises: 10

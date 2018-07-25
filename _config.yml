@@ -58,7 +58,7 @@ toc:
   - /automation/
   - /robust/
   - /issues/
-  - /license/
+  - /licensing/
   - /packaging/
   - /review/
   - /testing/
@@ -79,6 +79,7 @@ toc:
   - /bib/
   - /gloss/
   - /guide/
+  - /setup/
 
 # Translations by language.
 translations:

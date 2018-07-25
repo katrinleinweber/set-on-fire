@@ -1,6 +1,6 @@
 ---
-title: Discussion
 permalink: "/en/discuss/"
+title: Discussion
 ---
 
 ## When *Not* to Use Version Control

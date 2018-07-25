@@ -1,4 +1,5 @@
 ---
+permalink: "/en/issues/"
 title: "Issue Trackers"
 teaching: 15
 exercises: 10

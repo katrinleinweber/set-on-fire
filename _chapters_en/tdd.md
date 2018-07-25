@@ -1,4 +1,5 @@
 ---
+permalink: "/en/tdd/"
 title: "Test Driven Development"
 teaching: 10
 exercises: 30

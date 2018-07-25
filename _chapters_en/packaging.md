@@ -1,4 +1,5 @@
 ---
+permalink: "/en/packaging/"
 title: "Distribute Your Software"
 teaching: 5
 exercises: 10

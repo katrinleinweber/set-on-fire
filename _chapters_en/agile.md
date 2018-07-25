@@ -1,4 +1,5 @@
 ---
+permalink: "/en/agile/"
 title: "Agile Development"
 teaching: 5
 exercises: 10

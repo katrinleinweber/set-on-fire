@@ -1,4 +1,5 @@
 ---
+permalink: "/en/mentor/"
 title: "Mentor"
 teaching: 5
 exercises: 10

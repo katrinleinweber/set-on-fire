@@ -1,4 +1,5 @@
 ---
+permalink: "/en/testing/"
 title: "Test All The Things"
 teaching: 10
 exercises: 15

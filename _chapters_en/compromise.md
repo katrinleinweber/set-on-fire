@@ -1,4 +1,5 @@
 ---
+permalink: "/en/compromise/"
 title: "Compromise"
 teaching: 20
 exercises: 0

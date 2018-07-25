@@ -1,4 +1,5 @@
 ---
+permalink: "/en/robust/"
 title: "Make the Software Robust"
 teaching: 10
 exercises: 15

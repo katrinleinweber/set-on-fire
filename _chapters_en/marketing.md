@@ -1,4 +1,5 @@
 ---
+permalink: "/en/marketing/"
 title: "Marketing"
 teaching: 15
 exercises: 10

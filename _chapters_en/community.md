@@ -1,4 +1,5 @@
 ---
+permalink: "/en/community/"
 title: "Build a Community"
 teaching: 5
 exercises: 10

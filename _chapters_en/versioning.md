@@ -1,4 +1,5 @@
 ---
+permalink: "/en/versioning/"
 title: "Use Version Control"
 teaching: 5
 exercises: 15

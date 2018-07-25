@@ -1,6 +1,6 @@
 ---
-title: Setup
 permalink: /setup/
+title: Setup
 ---
 
 In order to do the exercises in this course,

@@ -1,4 +1,5 @@
 ---
+permalink: "/en/hosting/"
 title: "Host Your Project Responsibly"
 teaching: 5
 exercises: 10

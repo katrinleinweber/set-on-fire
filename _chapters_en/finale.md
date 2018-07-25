@@ -1,5 +1,6 @@
 ---
-title: "Conclusion"
+permalink: "/en/finale/"
+title: "Finale"
 teaching: 5
 exercises: 10
 questions:

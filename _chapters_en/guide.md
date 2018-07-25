@@ -1,6 +1,6 @@
 ---
-title: "Instructors' Guide"
 permalink: "/en/guide/"
+title: "Instructors' Guide"
 ---
 
 ## General Notes

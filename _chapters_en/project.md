@@ -1,4 +1,5 @@
 ---
+permalink: "/en/project/"
 title: "Organize Deliberately"
 teaching: 5
 exercises: 5

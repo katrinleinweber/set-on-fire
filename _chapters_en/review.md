@@ -1,4 +1,5 @@
 ---
+permalink: "/en/review/"
 title: "Code Review"
 teaching: 5
 exercises: 10
