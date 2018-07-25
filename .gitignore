@@ -1,7 +1,9 @@
-*.pyc
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
 *~
-.DS_Store
-.ipynb_checkpoints
-.sass-cache
-__pycache__
+.jekyll-metadata
 _site

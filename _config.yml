@@ -1,69 +1,73 @@
-#------------------------------------------------------------
-# Values for this lesson.
-#------------------------------------------------------------
+# Display.
+title: "The Research Software Survival Guide"
+subtitle: "A brief guide for those who suddenly find themselves needing to know more"
+author: "Greg Wilson"
+copyrightyear: "2018"
+repo: "https://github.com/gvwilson/rssg/"
+email: gvwilson@third-bit.com
+isbn: "000-0-0000000-0"
+website: "https://gvwilson.github.io/rssg/"
+purchase: "http://FIXME"
+paypal: "https://paypal.me/gvwilson/10CAD"
 
-# Which carpentry is this ("swc" or "dc")?
-carpentry: "swc"
+# Theme color.
+background: "#e0f0e0"
 
-# Overall title for pages.
-title: "Managing Research Software Projects"
+# Code highlighting.
+highlighter: rouge
 
-# Contact email address.
-contact: "mailto:lessons@software-carpentry.org"
+# Things to ignore
+exclude:
+- BUILD.md
+- CITATION.md
+- CONDUCT.md
+- LICENSE.md
+- Makefile
+- README.md
+- bin
+- requirements.txt
+- tex_en
 
-#------------------------------------------------------------
-# Generic settings (should not need to change).
-#------------------------------------------------------------
+# Markers in generated files.
+marker:
+  start: "<!-- main start -->"
+  end: "<!-- main end -->"
+  crossref: "let CROSSREF="
 
-# What kind of thing is this ("workshop" or "lesson")?
-kind: "lesson"
-
-# Magic to make URLs resolve both locally and on GitHub.
-# See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: <USERNAME>/<PROJECT>
-
-# Sites.
-amy_site: "https://amy.software-carpentry.org/workshops"
-dc_site: "http://datacarpentry.org"
-swc_github: "https://github.com/swcarpentry"
-swc_site: "https://software-carpentry.org"
-swc_pages: "https://swcarpentry.github.io"
-template_repo: "https://github.com/swcarpentry/styles"
-example_repo: "https://github.com/swcarpentry/lesson-example"
-example_site: "https://swcarpentry.github.com/lesson-example"
-workshop_repo: "https://github.com/swcarpentry/workshop-template"
-workshop_site: "https://swcarpentry.github.io/workshop-template"
-training_site: "https://swcarpentry.github.io/instructor-training"
-
-# Surveys.
-pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
-post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
-
-# Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
-start_time: 540
-
-# Specify that things in the episodes collection should be output.
+# Collections: one for lessons and one for extras for each language suffix.
 collections:
-  episodes:
-    output: true
-    permalink: /:path/
-  extras:
+  chapters_en:
     output: true
 
-# Set the default layout for things in the episodes collection.
+# Set the language for various collections.
 defaults:
-  - values:
-      root: ..
   - scope:
       path: ""
-      type: episodes
+      type: chapters_en
     values:
-      layout: episode
+      language: "en"
 
-# Files and directories that are not to be copied.
-exclude:
-  - Makefile
-  - bin
+# Order for Table of Contents.
+toc:
+  lessons:
+  - /intro/
+  - /mechanics/
+  - /teams/
+  - /process/
+  - /tooling/
+  - /design/
+  - /wrapup/
+  - /finale/
+  extras:
+  - /license/
+  - /conduct/
+  - /citation/
+  - /bib/
+  - /gloss/
+  - /peereval/
 
-# Turn off built-in syntax highlighting.
-highlighter: false
+# Translations by language.
+translations:
+  en:
+    generated: "Last generated"
+    objectives: "After reading this chapter, you will be able to..."

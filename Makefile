@@ -1,121 +1,171 @@
-## ========================================
-## Commands for both workshop and lesson websites.
+# Check that language is set.  Do NOT set 'LANG', as that would override the platform's LANG setting.
+ifndef lang
+$(error Must set 'lang' with 'lang=en' or similar.)
+endif
 
-# Settings
-MAKEFILES=Makefile $(wildcard *.mk)
+# Tools.
 JEKYLL=jekyll
-PARSER=bin/markdown_ast.rb
-DST=_site
+LATEX=pdflatex
+BIBTEX=bibtex
+PANDOC=pandoc
+PANDOC_FLAGS=--from=markdown --to=latex
+REPO=http://github.com/gvwilson/rssg
+
+# Language-dependent settings.
+DIR_MD=_chapters_${lang}
+DIR_TEX=tex_${lang}
+DIR_WEB=_site/${lang}
+BIB_SRC=files/${lang}.bib
+WORDS_SRC=misc/${lang}.txt
+
+# Filesets.
+ALL_MD=$(wildcard ${DIR_MD}/*.md)
+CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md ${DIR_MD}/index.md,${ALL_MD})
+CHAPTERS_TEX=$(patsubst ${DIR_MD}/%.md,${DIR_TEX}/inc/%.tex,${CHAPTERS_MD})
+CHAPTERS_HTML=$(patsubst ${DIR_MD}/%.md,${DIR_WEB}/%.html,${ALL_MD})
+ALL_HTML=all-${lang}.html
 
 # Controls
-.PHONY : commands clean files
-.NOTPARALLEL:
+.PHONY : commands serve site bib crossref clean
 all : commands
 
-## commands         : show all commands.
+## commands   : show all commands.
 commands :
-	@grep -h -E '^##' ${MAKEFILES} | sed -e 's/## //g'
+	@grep -h -E '^##' Makefile | sed -e 's/## //g'
 
-## serve            : run a local server.
-serve : lesson-md
-	${JEKYLL} serve
+## serve      : run a local server.
+serve :
+	${JEKYLL} serve -I
 
-## site             : build files but do not run a server.
-site : lesson-md
+## site       : build files but do not run a server.
+site :
 	${JEKYLL} build
 
-# repo-check        : check repository settings.
-repo-check :
-	@bin/repo_check.py -s .
+## ebook      : regenerate all-in-one versions of book.
+ebook : ${ALL_HTML}
 
-## clean            : clean up junk files.
+${ALL_HTML} : _config.yml files/crossref.js bin/mergebook.py
+	@bin/mergebook.py ${lang} _config.yml files/crossref.js ${DIR_WEB} > $@
+
+## pdf        : build PDF version of book.
+pdf : ${DIR_TEX}/book.pdf
+
+## tex        : generate LaTeX for book, but don't compile to PDF.
+tex : ${CHAPTERS_TEX}
+
+${DIR_TEX}/book.pdf : ${CHAPTERS_TEX} ${DIR_TEX}/book.bib
+	@cd ${DIR_TEX} \
+	&& ${LATEX} book \
+	&& ${BIBTEX} book \
+	&& ${LATEX} book \
+	&& ${LATEX} book \
+	&& ${LATEX} book
+
+${DIR_TEX}/inc/%.tex : ${DIR_MD}/%.md bin/texpre.py bin/texpost.py _includes/links.md
+	mkdir -p ${DIR_TEX}/inc && \
+	cat $< \
+	| bin/texpre.py _config.yml \
+	| ${PANDOC} ${PANDOC_FLAGS} -o - \
+	| bin/texpost.py _includes/links.md \
+	> $@
+
+${DIR_TEX}/book.bib : ${BIB_SRC}
+	cp $< $@
+
+## bib        : rebuild Markdown bibliography from BibTeX source.
+bib : ${DIR_MD}/bib.md
+
+${DIR_MD}/bib.md : ${BIB_SRC} bin/bib2md.py
+	bin/bib2md.py < $< > $@
+
+## crossref   : rebuild cross-reference file.
+crossref : files/crossref.js
+
+files/crossref.js : bin/crossref.py _config.yml ${CHAPTERS_MD}
+	bin/crossref.py < _config.yml > files/crossref.js
+
+## ----------------------------------------
+
+## authors    : list all authors.
+authors :
+	@bin/authors.py ${BIB_SRC}
+
+## missing    : list all missing bibliography entries.
+missing :
+	@bin/checkcites.py --missing ${BIB_SRC} ${CHAPTERS_TEX}
+
+## publishers : list all publishers.
+publishers :
+	@bin/fields.py ${BIB_SRC} publisher
+
+## unused     : list all unused bibliography entries.
+unused :
+	@bin/checkcites.py --unused ${BIB_SRC} ${CHAPTERS_TEX}
+
+## years      : CSV histogram of publication years.
+years :
+	@bin/years.py ${BIB_SRC}
+
+## ----------------------------------------
+
+## checklinks : check that all links in source Markdown resolve.
+checklinks :
+	@bin/checklinks.py _includes/links.md ${ALL_MD}
+
+## exercises  : count exercises per chapter.
+exercises : ${CHAPTERS_TEX}
+	@bin/exercises.py ${DIR_TEX}/book.tex
+
+## issues     : create single-page view of all GitHub issues.
+issues :
+	@bin/issues.py ${REPO} | ${PANDOC} -o issues.html -
+
+## labels     : make sure all labels conform to standards.
+labels :
+	@bin/checklabels.py ${CHAPTERS_TEX}
+
+## pages      : count pages per chapter.
+pages : ${DIR_TEX}/book.toc
+	@bin/pages.py < ${DIR_TEX}/book.toc
+
+## spelling   : check spelling.
+spelling :
+	@grep bibnote ${BIB_SRC} \
+	| cat - ${CHAPTERS_MD} \
+	| aspell --mode=tex list \
+	| sort \
+	| uniq \
+	| comm -2 -3 - ${WORDS_SRC}
+
+## words      : count words per chapter.
+words :
+	@wc -w ${CHAPTERS_MD} | sort -n -r
+
+## ----------------------------------------
+
+## nonascii   : look for non-ASCII characters.
+nonascii :
+	@bin/nonascii.py ${CHAPTERS_MD}
+
+## clean      : clean up junk files.
 clean :
-	@rm -rf ${DST}
-	@rm -rf .sass-cache
-	@rm -rf bin/__pycache__
+	@rm -rf _site ${DIR_TEX}/book.bib ${CHAPTERS_TEX} */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
-	@find . -name '*.pyc' -exec rm {} \;
 
-## clean-rmd        : clean intermediate R files (that need to be committed to the repo).
-clear-rmd :
-	@rm -rf ${RMD_DST}
-	@rm -rf fig/rmd-*
-
-## ----------------------------------------
-## Commands specific to workshop websites.
-
-.PHONY : workshop-check
-
-## workshop-check   : check workshop homepage.
-workshop-check :
-	@bin/workshop_check.py .
-
-## ----------------------------------------
-## Commands specific to lesson websites.
-
-.PHONY : lesson-check lesson-md lesson-files lesson-fixme
-
-# RMarkdown files
-RMD_SRC = $(wildcard _episodes_rmd/??-*.Rmd)
-RMD_DST = $(patsubst _episodes_rmd/%.Rmd,_episodes/%.md,$(RMD_SRC))
-
-# Lesson source files in the order they appear in the navigation menu.
-MARKDOWN_SRC = \
-  index.md \
-  CONDUCT.md \
-  setup.md \
-  $(wildcard _episodes/*.md) \
-  reference.md \
-  $(wildcard _extras/*.md) \
-  LICENSE.md
-
-# Generated lesson files in the order they appear in the navigation menu.
-HTML_DST = \
-  ${DST}/index.html \
-  ${DST}/conduct/index.html \
-  ${DST}/setup/index.html \
-  $(patsubst _episodes/%.md,${DST}/%/index.html,$(wildcard _episodes/*.md)) \
-  ${DST}/reference/index.html \
-  $(patsubst _extras/%.md,${DST}/%/index.html,$(wildcard _extras/*.md)) \
-  ${DST}/license/index.html
-
-## lesson-md        : convert Rmarkdown files to markdown
-lesson-md : ${RMD_DST}
-
-# Use of .NOTPARALLEL makes rule execute only once
-${RMD_DST} : ${RMD_SRC}
-	@bin/knit_lessons.sh ${RMD_SRC}
-
-## lesson-check     : validate lesson Markdown.
-lesson-check :
-	@bin/lesson_check.py -s . -p ${PARSER} -r _includes/links.md
-
-## lesson-check-all : validate lesson Markdown, checking line lengths and trailing whitespace.
-lesson-check-all :
-	@bin/lesson_check.py -s . -p ${PARSER} -l -w
-
-## lesson-figures   : re-generate inclusion displaying all figures.
-lesson-figures :
-	@bin/extract_figures.py -p ${PARSER} ${MARKDOWN_SRC} > _includes/all_figures.html
-
-## unittest         : run unit tests on checking tools.
-unittest :
-	python bin/test_lesson_check.py
-
-## lesson-files     : show expected names of generated files for debugging.
-lesson-files :
-	@echo 'RMD_SRC:' ${RMD_SRC}
-	@echo 'RMD_DST:' ${RMD_DST}
-	@echo 'MARKDOWN_SRC:' ${MARKDOWN_SRC}
-	@echo 'HTML_DST:' ${HTML_DST}
-
-## lesson-fixme     : show FIXME markers embedded in source files.
-lesson-fixme :
-	@fgrep -i -n FIXME ${MARKDOWN_SRC} || true
-
-#-------------------------------------------------------------------------------
-# Include extra commands if available.
-#-------------------------------------------------------------------------------
-
--include commands.mk
+## settings   : show macro values.
+settings :
+	@echo "JEKYLL=${JEKYLL}"
+	@echo "LATEX=${LATEX}"
+	@echo "BIBTEX=${BIBTEX}"
+	@echo "PANDOC=${PANDOC}"
+	@echo "PANDOC_FLAGS=${PANDOC_FLAGS}"
+	@echo "REPO=${REPO}"
+	@echo "DIR_MD=${DIR_MD}"
+	@echo "DIR_TEX=${DIR_TEX}"
+	@echo "DIR_WEB=${DIR_WEB}"
+	@echo "BIB_SRC=${BIB_SRC}"
+	@echo "WORDS_SRC=${WORDS_SRC}"
+	@echo "CHAPTERS_MD=${CHAPTERS_MD}"
+	@echo "CHAPTERS_TEX=${CHAPTERS_TEX}"
+	@echo "CHAPTERS_HTML=${CHAPTERS_HTML}"

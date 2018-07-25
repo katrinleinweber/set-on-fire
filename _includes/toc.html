@@ -1,0 +1,27 @@
+{% if include.language == 'en' %}
+  {% assign chapters = site.chapters_en %}
+{% elsif include.language == 'um' %}
+  {% assign chapters = site.chapters_um %}
+{% endif %}
+<nav>
+  {% if page.root %}<strong><a href="./">{% else %}<a href="../">{% endif %}
+    <img src="{{'/files/logo.svg'|relative_url}}" alt="{{site.title}} logo" width="50%" />
+    <p><em>{{site.title}}</em></p>
+  {% if page.root %}</a></strong>{% else %}</a>{% endif %}
+  {% include toc-section.html language=include.language coll=chapters title="Lessons" toc=site.toc.lessons %}
+  <hr/>
+  {% include toc-section.html language=include.language coll=chapters title="Extras"  toc=site.toc.extras %}
+  <hr/>
+  <p>
+    <a href="{{'/license/'|relative_url}}"><img src="{{'/files/cc-by.svg'|relative_url}}" alt="CC-BY License" width="80%" /></a>
+  </p>
+  <p>
+    <a href="mailto:{{site.email}}"><img src="{{'/files/email.svg'|relative_url}}" alt="Email" width="20%" /></a>
+    <a href="{{site.repo}}"><img src="{{'/files/github.svg'|relative_url}}" alt="GitHub" width="20%" /></a>
+  </p>
+  {% unless page.title %}
+  <p>
+    <em>{{site.translations[page.language].generated}} {{site.time|date: '%Y-%m-%d'}}.</em>
+  </p>
+  {% endunless %}
+</nav>
