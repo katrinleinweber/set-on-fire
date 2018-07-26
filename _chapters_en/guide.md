@@ -26,4 +26,15 @@ Don't tell people to Google things.
     other folks were confused enough to bother with a blog or Stack Overflow post,
     so it's probably not trivial.
 
+## Versioning
+
+- Before the workshop, make a copy of the [SNDS repository](https://github.com/standage/snds-demo)
+  by cloning it to your local system and pushing it to a new empty repo on Github
+  (something like https://github.com/YourUsername/snds-demo-yyyy-mm-dd).
+  Make sure to collect Github usernames from all participants pre-workshop so you can give them write access to the repo.
+- The first pull request will be simple to merge.
+  This will give an opportunity for a brief demo of the code review functionality, comment on particular lines, comment threads, etc.
+- The second pull request will likely have a merge conflict.
+  This is now super simple to handle in Github's web interface, and can also be covered in a very brief demo.
+
 {% include links.md %}
