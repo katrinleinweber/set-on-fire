@@ -9,7 +9,7 @@ LATEX=pdflatex
 BIBTEX=bibtex
 PANDOC=pandoc
 PANDOC_FLAGS=--from=markdown --to=latex
-REPO=http://github.com/gvwilson/teachtogether.tech
+REPO=http://github.com/gvwilson/rssg
 
 # Language-dependent settings.
 DIR_MD=_chapters_${lang}
