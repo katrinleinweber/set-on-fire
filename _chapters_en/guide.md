@@ -5,6 +5,8 @@ title: "Instructors' Guide"
 
 ## General Notes
 
+See [[Wils2018](#CITE)] for design ideas.
+
 It's all right not to get through the whole lesson.
 :   This lesson is designed for people who have never programmed before,
     but any given class may include people with a wide range of prior experience.

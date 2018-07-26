@@ -1,5 +1,5 @@
 ---
-permalink: /setup/
+permalink: "/en/setup/"
 title: Setup
 ---
 

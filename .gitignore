@@ -7,3 +7,6 @@
 *~
 .jekyll-metadata
 _site
+tex_*/inc
+tex_*/book.bib
+tex_*/book.pdf
