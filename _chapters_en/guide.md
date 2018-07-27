@@ -3,9 +3,7 @@ permalink: "/en/guide/"
 title: "Instructors' Guide"
 ---
 
-## General Notes
-
-See [[Wils2018](#CITE)] for design ideas.
+See [[Wils2018](#CITE)] for general notes on lesson design.
 
 It's all right not to get through the whole lesson.
 :   This lesson is designed for people who have never programmed before,
@@ -26,7 +24,7 @@ Don't tell people to Google things.
     other folks were confused enough to bother with a blog or Stack Overflow post,
     so it's probably not trivial.
 
-## Versioning
+## Versioning {#s:guide-versioning}
 
 - Before the workshop, make a copy of the [SNDS repository](https://github.com/standage/snds-demo)
   by cloning it to your local system and pushing it to a new empty repo on Github

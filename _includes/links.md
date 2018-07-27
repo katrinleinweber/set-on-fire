@@ -7,127 +7,121 @@ file is a Markdown file because Jekyll doesn't expand the link
 definitions if that's done.
 {% endcomment %}
 
-[4h-club]: http://www.4-h-canada.ca/
+[arxiv]: http://arxiv.org/
 
-[acm-guidelines]: https://www.acm.org/education/curricula-recommendations
-[ada-guidelines]: https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community
-[adept]: https://betterexplained.com/articles/adept-method/
-[appear-in]: https://appear.in/
+[bartel-recalibrate]: http://www.tombartel.de/blog/recalibrate-your-productivity-sensors/
+[bitbucket]: http://bitbucket.org
+[bpco]: https://www.amazon.com/Building-Powerful-Community-Organizations-Personal/dp/0977151808/
 
-[berlin-liberty]: https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty
-[black-girls-code]: http://www.blackgirlscode.com/
-[blockly]: https://developers.google.com/blockly/
-[bootstrap]: http://www.bootstrapworld.org/
-[bridge]: http://bridgeschool.io/
-[brown-wilson-rules]: https://doi.org/10.1371/journal.pcbi.1006023
-
-[camtasia]: https://www.techsmith.com/video-editor.html
-[canterbury-question-bank]: http://web-cat.org/questionbank/
-[carpentries-training]: http://carpentries.github.io/instructor-training/
-[cc-by-license]: https://creativecommons.org/licenses/by/4.0/
-[choral-explanations]: https://hapgood.us/2016/05/13/choral-explanations/
-[cmap-seasons]: https://cmap.ihmc.us/
-[community-types]: https://www.feverbee.com/types-of-community-and-activity-within-the-community/
-[constructive-alignment]: https://en.wikipedia.org/wiki/Constructive_alignment
+[cc-by-human]: https://creativecommons.org/licenses/by/4.0/
+[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
+[choose-license]: http://choosealicense.com/
+[cmake]: https://cmake.org/
+[coc-reporting]: https://software-carpentry.org/CoC-reporting/
+[coc]: https://software-carpentry.org/conduct/
+[concept-maps]: http://swcarpentry.github.io/instructor-training/08-memory/
+[contact]: mailto:lessons@software-carpentry.org
+[contributor-covenant]: http://contributor-covenant.org/
 [covenant]: https://www.contributor-covenant.org
-[cra]: https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/
-[cs-principles-pd]: http://www.pd4cs.org/
-[cs-teaching-tips]: http://csteachingtips.org/
-[cs-unplugged]: https://csunplugged.org/en/
+[cran-checkpoint]: https://cran.r-project.org/web/packages/checkpoint/index.html
+[cran-knitr]: https://cran.r-project.org/web/packages/knitr/index.html
+[cran-stringr]: https://cran.r-project.org/web/packages/stringr/index.html
 
-[deming-manufacturing]: https://en.wikipedia.org/wiki/W._Edwards_Deming
-[design-patterns]: https://en.wikipedia.org/wiki/Software_design_pattern
-[doxtdator-jobs]: http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/
-[dreyfus-model]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
-[dunning-kruger]: https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect
-[dynarski-who-needs-help]: https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html
+[figshare]: http://figshare.com/
+[formatR]: https://yihui.name/formatr/
+[fsf-license-list]: http://www.gnu.org/licenses/license-list.html
 
-[etherpad]: http://etherpad.org
-
-[faculty-adopt-teaching-methods]: https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods
-[famous-five]: https://en.wikipedia.org/wiki/The_Famous_Five_Canada
-[four-stages]: https://en.wikipedia.org/wiki/Four_stages_of_competence
-[franklin-effect]: https://en.wikipedia.org/wiki/Ben_Franklin_effect
-[frontier-college]: https://www.frontiercollege.ca/
-
+[galaxy]: https://galaxyproject.org/
+[gapminder-learning-plan]: http://swcarpentry.github.io/python-novice-gapminder/design/#stage-2---learning-plan
+[gawande-checklist-manifesto]: https://www.amazon.com/The-Checklist-Manifesto-Things-Right/dp/0312430000
+[git-dropbox]: https://github.com/anishathalye/git-remote-dropbox
+[git-lesson]: https://swcarpentry.github.io/git-novice/
+[github-importer]: https://import.github.com/
 [github]: http://github.com
-[good-teacher-effects]: http://educationnext.org/in-schools-teacher-quality-matters-most-coleman/
-[google-docs]: http://docs.google.com
-[google-hangouts]: http://hangouts.google.com
-[guzdial-blog]: http://computinged.wordpress.com
-[guzdial-myths]: https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext
-[guzdial-reasons-to-learn]: https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/
+[gitlab]: http://gitlab.com
+[gnu-make]: https://www.gnu.org/software/make/
+[good-enough]: https://arxiv.org/abs/1609.00037
 
-[icer]: https://icer.hosting.acm.org
-[inessential-weirdness-open-source]: https://www.harihareswara.net/sumana/2016/05/21/0
-[inessential-weirdness]: http://www.classmatters.org/2006_07/its-not-them.php
-[irc]: https://en.wikipedia.org/wiki/Internet_Relay_Chat
-[iticse]: http://iticse.acm.org/
+[importer]: http://import.github.com/new
 
-[jupyter]: http://jupyter.org/
+[jekyll-collection]: https://jekyllrb.com/docs/collections/
+[jekyll-install]: https://jekyllrb.com/docs/installation/
+[jekyll-windows]: http://jekyll-windows.juthilo.com/
+[jekyll]: https://jekyllrb.com/
+[jenkins-primer]: http://www.nickjenkins.net/prose/projectPrimer.pdf
+[jors]: http://openresearchsoftware.metajnl.com/
+[joss]: http://joss.theoj.org/
+[jupyter]: https://jupyter.org/
 
-[ko-papert]: https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4
+[kuchner-marketing]: https://www.amazon.com/Marketing-Scientists-Shine-Tough-Times/dp/1597269948/
 
-[learning-modalities]: https://en.wikipedia.org/wiki/Learning_styles#Learning_modalities
-[learning-pyramid]: https://www.worklearning.com/2015/01/05/mythical-retention-data-the-corrupted-cone/
-[learning-scientists-downloads]: http://www.learningscientists.org/downloadable-materials
-[learning-scientists-experiment]: http://www.learningscientists.org/blog/2017/7/28-1
-[learning-scientists]: http://www.learningscientists.org/
-[learning-theories]: http://www.learning-theories.com/
-[loupe]: http://latentflip.com/loupe/
+[lint]: https://en.wikipedia.org/wiki/Lint_(software)
 
-[mayer-reasons]: http://blog.mrmeyer.com/2016/why-secondary-teachers-dont-want-a-github-for-lesson-plans/
-[moodle]: http://moodle.org
-[mousepose]: https://boinx.com/mousepose/overview/
-[moz-guidelines]: https://moz.com/learn/seo/on-page-factors
+[make-lesson]: https://swcarpentry.github.io/make-novice/
+[mckinley-boring]: http://mcfunley.com/choose-boring-technology
+[mit-license]: http://opensource.org/licenses/mit-license.html
+[morea]: https://morea-framework.github.io/
+[morin-software-licensing]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598
 
-[noaa-disruptive]: https://coast.noaa.gov/ddb/story_html5.html
-[nonprofit-ready]: https://www.nonprofitready.org/
-[not-even-wrong]: https://en.wikipedia.org/wiki/Not_even_wrong
+[noble-rules]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
+[numfocus]: http://numfocus.org/
 
-[open-source-guides]: https://opensource.guide/
-[orwell-why]: http://www.resort.com/~prime8/Orwell/whywrite.html
+[osi-license-list]: http://opensource.org/licenses
+[osi]: http://opensource.org
 
-[partanen-finland-schools]: https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/
-[pep-8]: https://www.python.org/dev/peps/pep-0008/
-[personalized-learning-improvements]: https://www.rand.org/pubs/research_briefs/RB9994.html
-[phone-numbers]: https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used
-[primm]: http://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/
-[producing-oss]: http://producingoss.com/
+[pandoc]: https://pandoc.org/
+[paper-now]: https://github.com/PeerJ/paper-now
+[pep8]: https://pypi.python.org/pypi/pep8
+[performance-review]: https://hackernoon.com/a-guide-to-giving-your-cats-their-annual-performance-review-fbf14610305
+[producing-oss-participants]: http://producingoss.com/en/producingoss.html#managing-participants
+[producing-oss-pitfalls]: http://producingoss.com/en/producingoss.html#common-pitfalls
+[pydoit]: http://pydoit.org/
+[python-gapminder]: https://swcarpentry.github.io/python-novice-gapminder/
+[python-lesson]: https://swcarpentry.github.io/python-novice-gapminder/
+[python-logging-tutorial]: https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+[python-packaging]: https://packaging.python.org/
+[python-travis-tutorial]: https://www.smartfile.com/blog/testing-python-with-travis-ci/
+[pyyaml]: https://pypi.python.org/pypi/PyYAML
 
-[quora]: http://www.quora.com
+[quote-hoye]: https://twitter.com/mhoye/status/805611816197955585
+[quote-raj]: http://rajlaboratory.blogspot.ca/2016/03/from-over-reproducibility-to.html
+[quote-schauenberg]: https://twitter.com/mrtazz/status/767438616167608320
 
-[sakai]: https://www.sakaiproject.org/
-[self-determination-theory]: https://en.wikipedia.org/wiki/Self-determination_theory
-[sigcse]: http://sigcse.org/
-[slack]: http://slack.com
-[stack-overflow]: https://stackoverflow.com/
-[stencila]: http://stenci.la/
-[stride]: https://www.greenfoot.org/frames/
-[swc-shell-novice]: http://swcarpentry.github.io/shell-novice/
-[swc]: http://software-carpentry.org
+[rake]: https://ruby.github.io/rake/
+[r-markdown]: http://rmarkdown.rstudio.com/
+[recurse-social-rules]: https://www.recurse.com/manual#sub-sec-social-rules
+[ride-like-a-girl]: https://medium.com/@nkkl/ride-like-a-girl-1d5524e25d3a
+[robinson-crunch-mode]: http://www.igda.org/?page=crunchsixlessons
+[rse]: http://www.rse.ac.uk/
+[rstudio]: https://www.rstudio.com/
+[ruby-install-guide]: https://www.ruby-lang.org/en/downloads/
+[ruby-installer]: http://rubyinstaller.org/
+[rubygems]: https://rubygems.org/pages/download/
+
+[scons]: http://www.scons.org/
+[shell-lesson]: https://swcarpentry.github.io/shell-novice/
+[smart-bear-code-review]: https://smartbear.com/SmartBear/media/pdfs/best-kept-secrets-of-peer-code-review.pdf
+[snakemake]: https://snakemake.readthedocs.io/
+[software-paper-authorship]: http://ivory.idyll.org/blog/2015-authorship-on-software-papers.html
+[sourceforge]: http://sourceforge.net
+[sphinx]: http://www.sphinx-doc.org/
+[steinmacher-barriers]: http://www.igor.pro.br/publica/papers/GSD_CSCW2014.pdf
+[stupidity-driven]: http://ivory.idyll.org/blog/2014-research-coding.html
+[styles]: https://github.com/swcarpentry/styles/
 
 [t3]: http://teachtogether.tech
-[tdd]: https://en.wikipedia.org/wiki/Test-driven_development
-[ten-thousand-hours]: http://www.goodlifeproject.com/podcast/anders-ericsson/
-[tierney-twitter]: https://twitter.com/figuralities/status/987330064571387906
-[troy-meetings]: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
+[taschuk-rules]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
+[training]: http://swcarpentry.github.io/instructor-training/
+[travis-ci]: https://travis-ci.org/
+[travis-pr]: https://docs.travis-ci.com/user/pull-requests
+[twitter-grief]: https://twitter.com/rseroter/status/788028797144535040
+[tyranny-structurelessness]: http://www.jofreeman.com/joreen/tyranny.htm
 
-[unglue-versions]: https://unglue.it/work/313918/
+[vanderplas-licensing]: http://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/
 
-[variable-roles]: http://saja.kapsi.fi/var_roles/
-[video-bad-teaching]: https://www.youtube.com/watch?v=-ApVt04rB4U
-[video-live-coding-bad]: https://youtu.be/bXxBeNkKmJE
-[video-live-coding-good]: https://youtu.be/SkPmwe_WjeY
-[video-pair-programming]: https://www.youtube.com/watch?v=vgkahOzFH2Q
-[video-peer-instruction]: https://www.youtube.com/watch?v=2LbuoxAy56o
-[video-screencast-bad]: https://youtu.be/xcnoHaxXvdQ
+[waffle]: http://waffle.io
+[what-is-rse]: http://www.rse.ac.uk/who.html
 
-[watters-timeline]: http://teachingmachin.es/timeline.html
-[wickes-analysis]: https://twitter.com/elliewix/status/981285432922202113
-[wilson-reasons]: http://third-bit.com/2016/04/29/why-teachers-dont-collaborate.html
-[wordpress]: https://wordpress.org/
+[yaml]: http://yaml.org/
 
-[xkcd-org-chart]: https://xkcd.com/773/
-
-[zulip]: https://zulipchat.com/
+[zenodo]: https://zenodo.org/

@@ -24,7 +24,10 @@ keypoints:
     *   Multi-year development plans didn't make sense when everything
         they depended on would be obsolete by the time work started
 
-![Agile Feedback Loops]({{"/fig/agile-feedback.png" | absolute_url}})
+<figure>
+  <img src="../../files/agile-feedback.png" alt="Agile Feedback Loops" />
+  <figcaption id="f:agile-feedback">Agile Feedback Loops</figcaption>
+</figure>
 
 *   Key feature is *short iterations*: single day to two weeks
     *   In each iteration, the team decides what to build next, designs it,

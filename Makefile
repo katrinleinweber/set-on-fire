@@ -9,7 +9,7 @@ LATEX=pdflatex
 BIBTEX=bibtex
 PANDOC=pandoc
 PANDOC_FLAGS=--from=markdown --to=latex
-REPO=http://github.com/gvwilson/rssg
+REPO=FIXME
 
 # Language-dependent settings.
 DIR_MD=_chapters_${lang}
@@ -22,6 +22,7 @@ ALL_MD=$(wildcard ${DIR_MD}/*.md)
 BIB_SRC=${DIR_TEX}/book.bib
 CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md ${DIR_MD}/index.md,${ALL_MD})
 CHAPTERS_TEX=$(patsubst ${DIR_MD}/%.md,${DIR_TEX}/inc/%.tex,${CHAPTERS_MD})
+ALL_TEX=${CHAPTERS_TEX} ${DIR_TEX}/book.tex ${DIR_TEX}/frontmatter.tex tex/settings.tex tex/macros.tex
 CHAPTERS_HTML=$(patsubst ${DIR_MD}/%.md,${DIR_WEB}/%.html,${ALL_MD})
 ALL_HTML=all-${lang}.html
 
@@ -73,13 +74,13 @@ ${DIR_TEX}/inc/%.tex : ${DIR_MD}/%.md bin/texpre.py bin/texpost.py _includes/lin
 bib : ${DIR_MD}/bib.md
 
 ${DIR_MD}/bib.md : ${BIB_SRC} bin/bib2md.py
-	bin/bib2md.py < $< > $@
+	bin/bib2md.py ${lang} < $< > $@
 
 ## crossref   : rebuild cross-reference file.
 crossref : files/crossref.js
 
 files/crossref.js : bin/crossref.py _config.yml ${CHAPTERS_MD}
-	bin/crossref.py < _config.yml > files/crossref.js
+	bin/crossref.py ${DIR_MD} < _config.yml > files/crossref.js
 
 ## ----------------------------------------
 
