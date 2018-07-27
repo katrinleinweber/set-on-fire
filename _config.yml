@@ -52,6 +52,7 @@ defaults:
 toc:
   lessons:
   - /intro/
+  - /rse/
   - /project/
   - /versioning/
   - /hosting/
