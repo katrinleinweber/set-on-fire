@@ -7,8 +7,8 @@ repo: "https://github.com/gvwilson/rssg/"
 email: gvwilson@third-bit.com
 isbn: "000-0-0000000-0"
 website: "https://gvwilson.github.io/rssg/"
-# purchase: "http://FIXME"
-# paypal: "https://paypal.me/gvwilson/10CAD"
+purchase: ""
+paypal: ""
 
 # Theme color.
 background: "#e0f0e0"
@@ -81,7 +81,6 @@ toc:
   - /citation/
   - /gloss/
   - /guide/
-  - /setup/
 
 # Translations by language.
 translations:

@@ -4,7 +4,6 @@ title: "Lesson Design"
 ---
 
 This lesson was developed using the methods in *[Teaching Tech Together][t3]*.
-The main sections are:
 
 ## Stage 1: Assumptions {#s:design-assumptions}
 
