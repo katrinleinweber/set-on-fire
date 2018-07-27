@@ -15,6 +15,8 @@ background: "#e0f0e0"
 
 # Code highlighting.
 highlighter: rouge
+plugins:
+  - "jekyll-redirect-from"
 
 # Things to ignore
 exclude:
@@ -86,4 +88,5 @@ toc:
 translations:
   en:
     generated: "Last generated"
+    keypoints: "Key points"
     objectives: "After reading this chapter, you will be able to..."
