@@ -1,11 +1,13 @@
 ---
 permalink: "/en/hosting/"
 title: "Host Your Project Responsibly"
+questions:
+-   "Where should I host my version control repositories?"
 objectives:
-- "Explain different options for hosting scientific work."
+-   "Explain different options for hosting scientific work."
 keypoints:
-- "Projects can be hosted on university servers, on personal domains, or on public forges."
-- "Rules regarding intellectual property and storage of sensitive data apply no matter where code and data are hosted."
+-   "Projects can be hosted on university servers, on personal domains, or on public forges."
+-   "Rules regarding intellectual property and storage of sensitive data apply no matter where code and data are hosted."
 ---
 
 -   What are the permanent access points for your project?
@@ -67,13 +69,15 @@ while repositories are "where you publish".
 
 ## Exercises {#s:hosting-exercises}
 
-## Can My Work Be Public?
+### Can My Work Be Public?
+
 Find out whether you are allowed to host your work openly on a public forge.
 Can you do this unilaterally,
 or do you need permission from someone in your institution?
 If so, who?
 
-## Where Can I Share My Work?
+### Where Can I Share My Work?
+
 Does your institution have a repository or repositories that you can
 use to share your papers, data and software?
 

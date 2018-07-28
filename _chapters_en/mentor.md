@@ -1,15 +1,17 @@
 ---
 permalink: "/en/mentor/"
 title: "Mentor"
+questions:
+-   "How can I help other people get ready to manage parts of this project?"
 objectives:
--    "Explain why unstructured groups actually aren't and why that is a bad thing."
--    "Describe the four key elements of a productive performance review."
+-   "Explain why unstructured groups actually aren't and why that is a bad thing."
+-   "Describe the four key elements of a productive performance review."
 keypoints:
--    "Power is always distributed unequally in groups - the only question is whether that's explicit or not."
--    "Be clear about what you have delegated and what 'done' looks like."
--    "Make conditions and criteria for performance reviews explicit."
--    "Accept the same kind of feedback that you want to give."
--    "Crunch mode doesn't work."
+-   "Power is always distributed unequally in groups - the only question is whether that's explicit or not."
+-   "Be clear about what you have delegated and what 'done' looks like."
+-   "Make conditions and criteria for performance reviews explicit."
+-   "Accept the same kind of feedback that you want to give."
+-   "Crunch mode doesn't work."
 ---
 
 > When life gives you lemons, think carefully if you want to tend a lemon tree garden forever.

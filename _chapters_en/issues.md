@@ -1,6 +1,8 @@
 ---
 permalink: "/en/issues/"
 title: "Tracking Work"
+questions:
+-   "How can I keep track of what needs to be done?"
 objectives:
 -   "Describe what sorts of things should be recorded in an issue-tracking system."
 -   "Describe what goes into a well-written issue."

@@ -1,6 +1,10 @@
 ---
 permalink: "/en/review/"
 title: "Code Review"
+questions:
+-   "How can I tell when software is ready to be integrated?"
+-   "How can I share knowledge within my team?"
+-   "How can I be more productive when I'm actually writing code?"
 objectives:
 -   "Describe three benefits of code reviews."
 -   "Explain the difference between pre-commit and post-commit review."

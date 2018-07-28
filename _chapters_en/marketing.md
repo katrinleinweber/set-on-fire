@@ -1,6 +1,8 @@
 ---
 permalink: "/en/marketing/"
 title: "Marketing"
+questions:
+-   "How can I raise money for my project?"
 objectives:
 -   "Explain how to communicate the value of research to stakeholders."
 keypoints:

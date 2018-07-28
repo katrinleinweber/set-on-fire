@@ -1,12 +1,14 @@
 ---
 permalink: "/en/project/"
 title: "Organize Deliberately"
+questions:
+-   "How should I organize my research software project?"
 objectives:
--    "Explain Noble's rules and emphasize the principle of organizing and naming files to reflect their content or purpose."
+-   "Explain Noble's rules and emphasize the principle of organizing and naming files to reflect their content or purpose."
 keypoints:
--    "Name each project component (code, data, metadata, etc.) according to its content or purpose."
--    "Group similar project files into dedicated directories."
--    "Take advantage of widely used project organization conventions unless there is a compelling reason not to."
+-   "Name each project component (code, data, metadata, etc.) according to its content or purpose."
+-   "Group similar project files into dedicated directories."
+-   "Take advantage of widely used project organization conventions unless there is a compelling reason not to."
 ---
 
 -   Project organization is like a diet
@@ -28,8 +30,9 @@ keypoints:
 ## Exercises {#s:project-exercises}
 
 Draw a diagram of how your project is currently organized.
--	Is this documented anywhere?
-- 	Would it be intuitive for a newcomer?
-- 	Are there any changes you could make to take advantage of common conventions?
+
+-   Is this documented anywhere?
+-   Would it be intuitive for a newcomer?
+-   Are there any changes you could make to take advantage of common conventions?
 
 {% include links.md %}

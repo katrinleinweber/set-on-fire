@@ -1,6 +1,8 @@
 ---
 permalink: "/en/packaging/"
 title: "Distribute Your Software"
+questions:
+-   "How should I package my software for release?"
 objectives:
 -   "Explain how and why to describe software dependencies in machine-readable form."
 -   "Explain why development machines should always be set up using package descriptions."
@@ -44,7 +46,7 @@ requests>=2.0
 
 ## Exercises {#s:packaging-exercises}
 
-### Ask Your Doctor: Is Packaging Right for You?
+### Is Packaging Right for You?
 
 1.  What language is your project primarily implemented in?
     Does a package manager exist for this language?

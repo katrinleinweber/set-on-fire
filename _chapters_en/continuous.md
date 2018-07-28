@@ -1,6 +1,8 @@
 ---
 permalink: "/en/continuous/"
 title: "Continuous Integration"
+questions:
+-   "How can I tell what state my project is actually in?"
 objectives:
 -   "Explain how continuous integration works."
 -   "Configure continuous integration for a small software project."

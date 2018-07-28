@@ -1,6 +1,9 @@
 ---
 permalink: "/en/rse/"
 title: "Research Software Engineers"
+questions:
+-   "What is a research software engineer?"
+-   "Am I a research software engineer?"
 objectives:
 -   "Explain what research software engineers do and don't do."
 keypoints:

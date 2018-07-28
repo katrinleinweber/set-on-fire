@@ -1,6 +1,10 @@
 ---
 permalink: "/en/testing/"
 title: "Test All The Things"
+questions:
+-   "How can I tell if my software is good enough to release?"
+-   "How can figure out what my code is supposed to do?"
+-   "How can I stay focused on building what I actually need to?"
 objectives:
 -   "Explain why scientists should think about testing in terms of tolerances."
 -   "Write unit tests to define what what a simple function is supposed to do."

@@ -1,6 +1,11 @@
 ---
 permalink: "/en/robust/"
 title: "Make the Software Robust"
+questions:
+-   "How can I make it easier for people to find out what my project does?"
+-   "How can I make it easier for people to install my software?"
+-   "How can I make it easy for other people to use my software as a component in their work?"
+-   "How can I convince people that my software is trustworthy?"
 objectives:
 -   "Explain what 'robust software' is."
 -   "Identify three things projects can do to make themselves easier to understand."

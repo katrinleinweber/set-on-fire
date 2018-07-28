@@ -1,6 +1,9 @@
 ---
 permalink: "/en/compromise/"
 title: "Compromise"
+questions:
+-   "How can I improve my project's development processes without becoming overwhelmed?"
+-   "Under what circumstances can I suspend best practices?"
 objectives:
 -   "Describe the concept of technical debt."
 -   "Discuss strategies for principled compromises in software development best practices."

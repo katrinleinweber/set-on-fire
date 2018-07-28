@@ -1,10 +1,12 @@
 ---
 permalink: "/en/finale/"
 title: "Finale"
+questions:
+-   "What have we learned?"
 objectives:
-- "Reflect on the course."
+-   "Reflect on the course."
 keypoints:
-- "Managing a research software project is a learnable skill like any other."
+-   "Managing a research software project is a learnable skill like any other."
 ---
 
 > I can't make you a great dancer.

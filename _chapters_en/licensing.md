@@ -1,6 +1,8 @@
 ---
 permalink: "/en/licensing/"
 title: "Choose a License"
+questions:
+-   "What licensing information should I include with my work?"
 objectives:
 -   "Explain why adding licensing information to a repository is important."
 -   "Choose a proper license."

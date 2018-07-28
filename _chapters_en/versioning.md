@@ -1,6 +1,8 @@
 ---
 permalink: "/en/versioning/"
 title: "Use Version Control"
+questions:
+-   "How should I manage work using version control?"
 objectives:
 -   "Explain how to use feature branches to manage software development."
 keypoints:

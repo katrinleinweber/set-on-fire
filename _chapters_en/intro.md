@@ -1,6 +1,10 @@
 ---
 permalink: "/en/intro/"
 title: "Introduction"
+questions:
+-   "What are the key differences between research software and 'normal' projects?"
+-   "What does 'done' look like for a research software project?"
+-   "What are the goals of this class?"
 objectives:
 -   "Compare and contrast research software projects and 'normal' software projects."
 -   "Name and explain key features of a mature research software project."

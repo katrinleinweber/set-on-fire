@@ -1,6 +1,8 @@
 ---
 permalink: "/en/governance/"
 title: "Governance"
+questions:
+-   "How can I turn a community into an organization?"
 objectives:
 -   "Describe the current or desired governance model for your organization."
 keypoints:
@@ -48,7 +50,7 @@ keypoints:
 
 Go through steps 1-5 for your organization.
 
-## Staffing
+### Staffing
 
 Go through step 6 (staffing) for your organization.
 

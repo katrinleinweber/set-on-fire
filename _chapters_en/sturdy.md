@@ -1,8 +1,8 @@
 ---
 permalink: "/en/sturdy/"
 title: "Sturdy Development"
-teaching: 5
-exercises: 10
+questions:
+-   "What does a design-first development process look like?"
 objectives:
 -   "Explain the key features of sturdy development."
 -   "Explain why sturdy development is a good fit for many mature research software projects."

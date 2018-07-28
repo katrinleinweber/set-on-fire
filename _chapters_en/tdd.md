@@ -1,6 +1,9 @@
 ---
 permalink: "/en/tdd/"
 title: "Test Driven Development"
+questions:
+-   "How can figure out what my code is supposed to do?"
+-   "How can I stay focused on building what I actually need to?"
 objectives:
 -   "Define test-driven development and explain the rationale for it."
 -   "Write unit tests to define what what a simple function is supposed to do."
