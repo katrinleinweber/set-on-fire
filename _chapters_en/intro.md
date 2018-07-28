@@ -47,12 +47,6 @@ keypoints:
 	-	Experts in the problem domain (or becoming such)
 	-	Mostly self-taught or peer-taught programmers
 -   Some staff may be [research software engineers](#g:rse) (RSEs)
-    -   Combine expertise in programming with an in-depth understanding of research
-    -   Typically have:
-        -   An advanced degree in a research discipline
-        -   Lots of experience developing software (often acquired while working on their thesis)...
-        -   ...but little or no formal training in software engineering
-    -   "The astronomers who build telescopes so that others can study stars"
     -	Discussed in detail in [s:rse](#CHAPTER)
 
 ## What Does 'Done' Look Like? {#s:intro-done}

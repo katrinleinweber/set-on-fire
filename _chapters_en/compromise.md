@@ -14,7 +14,15 @@ keypoints:
 -   "Ensure the scientific core of your project is sound. Otherwise, fix bugs when they come along, and then get back to science."
 ---
 
--   "Technical debt"
+- FIXME: software lifecycle
+    -   What needs to be done?
+    -   Why?
+    -   Who's doing it?
+    -   When is it due?
+    -   What state is it in (i.e., are we done yet)?
+    -   Where is everything?
+    -   How do we do things?
+-   Technical debt
     -   Dissonance between (constantly refining) conceptual model and the model reflected in code
     -   Informed, deliberate suspension of best practices
     -   Term popularized by tech startup culture

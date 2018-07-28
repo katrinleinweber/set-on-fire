@@ -12,7 +12,7 @@ keypoints:
 -   "Research software engineers need to understand languages, version control, build and test tools, performance tools, packaging, and lifecycle management."
 ---
 
--   [What is a research software engineer][what-is-rse] (RSE)?
+-   [What is a research software engineer][what-is-rse] ([RSE](#g:rse))?
     -   Combine expertise in programming with an in-depth understanding of research
     -   Typically have:
         -   An advanced degree in a research discipline
@@ -20,27 +20,22 @@ keypoints:
         -   ...but little or no formal training in software engineering
     -   "The astronomers who build telescopes so that others can study stars"
 -   What *isn't* an RSE?
-    -   Sys admin (although many RSEs wind up doing a lot of systems administration)
-    -   Lab tech (although sometimes classified as such)
+    -   Sys admin (although many RSEs wind up doing a lot of system administration)
+    -   Lab tech (although sometimes classified as such for want of a more accurate job category)
     -   Principal investigator (although RSEs occasionally become PIs on infrastructure projects)
 -   What do RSEs do?
-    -   *Design, write, test, and maintain software*
+    -   Design, write, test, and maintain software
     -   Manage data (or build tools to fetch, filter, organize, and process data)
     -   Deploy and run software (overlaps with sys admins)
+    -   Software lifecycle management ([s:compromise](#CHAPTER))
+        -   Often de facto process owners
+    -   Training and mentoring ([s:mentor](#CHAPTER)
 -   What do RSEs need to know?
     -   Programming language(s) - in more depth than most of their research colleagues
     -   Version control - ditto
     -   Build and test tools - often the only one on their team doing any of this
     -   Performance analysis and tuning - ditto
-    -   Packaging and deployment - ditto (and then some)
-    -   Software lifecycle management - often de facto process owners
-        -   What needs to be done?
-        -   Why?
-        -   Who's doing it?
-        -   When is it due?
-        -   What state is it in (i.e., are we done yet)?
-        -   Where is everything?
-        -   How do we do things?
+    -   Packaging and deployment - ditto
 
 ## Exercises {#s:rse-exercises}
 
