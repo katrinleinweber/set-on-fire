@@ -40,12 +40,21 @@ def headerOnce(m):
     title = untex(data['title'])
     label = data['permalink'].strip('/').split('/')[1]
     result = r'\chapter{' + title + r'}\label{s:' + label + '}\n'
+    if 'questions' in data:
+        result += blockToBlock('questions', data['questions'])
     if 'objectives' in data:
-        result += '\\begin{objectives}\n'
-        result += '\n'.join(r'\item ' + untex(obj) + '\n' for obj in data['objectives'])
-        result += '\\end{objectives}\n'
+        result += blockToBlock('objectives', data['objectives'])
+    if 'keypoints' in data:
+        STACK.append(blockToBlock('keypoints', data['keypoints']))
     return result
 headerOnce.pattern = rxc(r'\\begin{verbatim}(.+?)\\end{verbatim}')
+
+
+def blockToBlock(blockType, data):
+    result = r'\begin{' + blockType + '}\n'
+    result += '\n'.join(r'\item ' + untex(obj) + '\n' for obj in data)
+    result += r'\end{' + blockType + '}\n'
+    return result
 
 
 def appref(m):
