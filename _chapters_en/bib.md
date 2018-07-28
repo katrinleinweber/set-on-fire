@@ -1,6 +1,5 @@
 ---
-layout: default
-permalink: "/en/bib/"
+permalink: "/{}/bib/"
 title: "Bibliography"
 ---
 

@@ -13,7 +13,7 @@ paypal: ""
 # Theme color.
 background: "#e0f0e0"
 
-# Code highlighting.
+# Jekyll settings.
 highlighter: rouge
 plugins:
   - "jekyll-redirect-from"
@@ -27,6 +27,7 @@ exclude:
 - Makefile
 - README.md
 - bin
+- misc
 - requirements.txt
 - tex_en
 
@@ -91,3 +92,4 @@ translations:
     keypoints: "Key points"
     objectives: "Learning objectives"
     questions: "Questions answered"
+    singlepage: "Single page version"
