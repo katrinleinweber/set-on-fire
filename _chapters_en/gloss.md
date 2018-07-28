@@ -14,6 +14,9 @@ FIXME
 **Creative Commons - Attribution License**{:#g:cc-by} (CC-BY):
 FIXME
 
+**End-user programmer**{:#g:end-user-programmer}:
+FIXME
+
 **Functional test**{:#g:functional-test}:
 FIXME
 
@@ -33,6 +36,12 @@ FIXME
 FIXME
 
 **Regression test**{:#g:regression-test}:
+FIXME
+
+**Reproducible research**{:#g:reproducible-research}:
+FIXME
+
+**Research software engineer**{:#g:rse}:
 FIXME
 
 **Smoke test**{:#g:smoke-test}:

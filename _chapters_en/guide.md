@@ -3,7 +3,113 @@ permalink: "/en/guide/"
 title: "Instructors' Guide"
 ---
 
-See [[Wils2018](#CITE)] for general notes on lesson design.
+## Design {#s:guide-design}
+
+This lesson was developed using the methods in *[Teaching Tech Together][t3]* [[Wils2018](#CITE)].
+
+### Brainstorming
+
+-   Audience
+    -   [Research software engineers][rse]
+        who are now responsible for a small to medium-sized software project (defined below)
+    -   Program frequently, use version control
+    -   Know what unit testing is, but may not actually have written many tests
+    -   No previous exposure to project management or software project management tools
+-   Projects
+    -   3×6: three people working for about six months
+    -   Both numbers may vary up and down, but:
+        -   Group is small enough to have lunch together (i.e., a single cohesive unit)
+        -   Timescale is short enough that personnel turnover isn't an issue
+    -   Some or all of the team members may be multi-tasking on other projects
+    -   Building digital scientific instruments rather than doing exploratory data analysis
+        -   E.g., creating a library, an application, or a pipeline
+        -   May be starting from scratch
+        -   But more likely cleaning up, rewriting, and integrating bits and pieces
+    -   The principal scientific investigator (PI) *isn't* a member of the development team
+-   Constraints
+    -   One full day 09:00-16:00
+        -   06:30 teaching time
+        -   1:00 for lunch
+        -   0:30 total for two coffee breaks
+    -   This means we cannot introduce complex new tools
+        -   But can add extensions to tools participants are already familiar with
+    -   Attendees must be familiar with:
+        -   [the Unix shell][shell-lesson]
+        -   [Make][make-lesson]
+        -   [Git][git-lesson] (enough to follow pull/edit/commit/push/PR instructions and use GitHub)
+        -   [Python][python-lesson] (because we have to use some programming language for examples)
+-   Running Example
+    -   Start with a badly-organized software project
+    -   Improve it in pieces throughout the course
+-   Resources
+    -   [Noble's Rules][noble-rules]
+    -   [Jenkins' Project Primer][jenkins-primer]
+    -   [Taschuk's Rules][taschuk-rules]
+
+### Learner Personas
+
+**Standage**
+
+Standage, 33, is doing a post-doc in genomics at a research-intensive university in western Canada.
+Over the past six years, she has created a set of R packages for mapping paleogenomic data
+that are now being used by a dozen of her collaborators.
+Her coding style has evolved considerably over that time,
+and she now has permission from her supervisor to spend the summer bringing them up to date and documenting them
+so that they can write a paper about them (and possibly commercialize them).
+
+While Standage understands what a well-formed R package looks like,
+she knows less about robust development processes,
+release management,
+and how to convince other people to file bugs and make contributions for software they didn't write.
+This training will tell her which of these things she ought to worry about right now,
+how to do them,
+and how to tell when she (or others) are doing them right.
+
+### Desired Results
+
+**Questions:** how do I...
+
+-   ...know what state my project is in?
+-   ...figure out what the team ought to work on next?
+-   ...figure out when they'll be done (and what "done" means)?
+-   ...adjust plans when things go wrong?
+-   ...make it easy for other people to contribute?
+-   ...manage contributions from other developers?
+-   ...create an installable, usable version of my project?
+-   ...pass these skills on to my team?
+
+**Skills:** I can...
+
+1.  ...report my status clearly and succinctly in a stand-up meeting.
+2.  ...give others feedback on the content and presentation of their stand-up reports.
+3.  ...critique and improve bug reports and status reports.
+4.  ...create a development schedule for a project
+    given a set of tasks with priorities and time estimates.
+5.  ...(re-)organize the files in a small to medium-sized software project
+    according to [Noble's Rules][noble-rules]
+6.  ...implement continuous integration by connecting
+    a regression test script to a GitHub repository using Travis-CI.
+7.  ...apply [Taschuk's Rules][taschuk-rules] to make software more robust.
+8.  ...create an installable Python package.
+
+**Concepts:** I know...
+
+-   ...that participating in a software project is a separate skill from programming.
+-   ...what the core practices of agile and sturdy development are
+    and what kinds of projects each is best suited for.
+-   ...that managing a software project depends on planning and feedback at multiple timescales.
+-   ...that simple off-the-shelf tools can make participation in software projects easier.
+
+**Tools:** I can use...
+
+-   ...[GitHub][github] for project management (issues and pull requests).
+-   ...[Make][make-lesson] for task automation.
+-   ...[Travis-CI][travis-ci] for continuous integration.
+-   ...[Sphinx][sphinx] for documentation generation.
+-   ...[Pip and Setuptools][python-packaging] to create and install packages.
+-   ...[Waffle][waffle] for backlog management.
+
+## General {#s:guide-general}
 
 It's all right not to get through the whole lesson.
 :   This lesson is designed for people who have never programmed before,

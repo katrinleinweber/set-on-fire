@@ -125,3 +125,11 @@ definitions if that's done.
 [yaml]: http://yaml.org/
 
 [zenodo]: https://zenodo.org/
+
+[python]: http://www.python.org
+[r]: https://www.r-project.org/
+[matlab]: https://www.mathworks.com/products/matlab.html
+[bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+[swc-shell]: http://swcarpentry.github.io/shell-novice/
+[git]: https://git-scm.com/
+[swc-git]: https://swcarpentry.github.io/git-novice/
