@@ -26,6 +26,7 @@ definitions if that's done.
 [cran-checkpoint]: https://cran.r-project.org/web/packages/checkpoint/index.html
 [cran-knitr]: https://cran.r-project.org/web/packages/knitr/index.html
 [cran-stringr]: https://cran.r-project.org/web/packages/stringr/index.html
+[cwl]: https://www.commonwl.org/
 
 [figshare]: http://figshare.com/
 [formatR]: https://yihui.name/formatr/

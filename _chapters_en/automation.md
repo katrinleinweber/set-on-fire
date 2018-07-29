@@ -43,7 +43,8 @@ keypoints:
 -   General workflow tools may be a better fit for some kinds of research
     -   [Galaxy][galaxy] is a high-end tool
     -   [doit][pydoit] is a lot easier to start with
-    -   Only as stable as the pieces they connect
+    -   Only as stable as the pieces they connect: workflows can rust if not maintained
+    -   [Common Workflow Language][cwl] is an attempt to unify some of these tools
 -   And debugging builds is often challenging, no matter what the tool
 -   A [checklist]{#g:checklist} is a set of build instructions meant to be executed by a human being
     -   [[Gawa2007](#CITE)] describes how use of checklists cuts fatalities in surgery significantly
