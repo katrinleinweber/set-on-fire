@@ -1,12 +1,12 @@
 # Display.
-title: "The Research Software Survival Guide"
-subtitle: "A brief guide for those who suddenly find themselves needing to know more"
+title: "Building a Research Software Commons"
+subtitle: "How to go from 'I can use it on my machine' to 'we can use it wherever we want'."
 author: "Greg Wilson"
 copyrightyear: "2018"
-repo: "https://github.com/gvwilson/rssg/"
+repo: "https://github.com/gvwilson/brsc/"
 email: gvwilson@third-bit.com
 isbn: "000-0-0000000-0"
-website: "https://gvwilson.github.io/rssg/"
+website: "https://gvwilson.github.io/brsc/"
 purchase: ""
 paypal: ""
 
