@@ -10,17 +10,13 @@ keypoints:
 -   "Rules regarding intellectual property and storage of sensitive data apply no matter where code and data are hosted."
 ---
 
--   What are the permanent access points for your project?
-    -   Software under development
-    -   Stable releases/versions
-    -   Documentation
-    -   Supporting data
 -   Hosting considerations
-    -   Privacy (what level, if any, of restricted access do you need?)
-    -   Ownership, branding
-    -   Reliability
-    -   Management burden
--   Option 1: lab, department, or university provides server, manages accounts and backups, etc.
+    -   Privacy: what level, if any, of restricted access do you need?
+    -   Ownership and branding: are `something.github.io` or `yourname.wordpress.com` good enough, or do you need an institutional domain or a personal one?
+    -   Reliability: how important are continuous availability and control over when downtime occurs
+        -   It's really annoying when someone you've never met takes your site down for maintenance just as you're about to do a demo...
+    -   Management burden: unfortunately, increasing any of the above requires time and money
+-   Option 1: lab, department, university, or company provides server, manages accounts and backups, etc.
     -   Pro: clarifies who owns what
         -   Particularly important if any of the material is sensitive
             (i.e., relates to experiments involving human subjects or may be used in a patent application)
@@ -35,37 +31,33 @@ keypoints:
     -   Con: requires more time and effort to set up than other options
     -   Con: may not be allowed
 -   Option 3: public host service
-    -   [GitHub][github], [GitLab][gitlab], [BitBucket][bitbucket], [SourceForge][sourceforge], ...
+    -   [GitHub][github], [GitLab][gitlab], [BitBucket][bitbucket], [SourceForge][sourceforge], etc.
     -   All provide web interface to
         -   Create, view, and edit projects
-        -   Communication and project management tools (issue tracking, wiki pages, email, code reviews)
+        -   Communication and project management tools ([s:issues](#CHAPTER))
     -   Pro: economies of scale
     -   Pro: network effects (potential collaborators probably already know how to use them)
     -   Con: public (or only a limited amount of privacy)
         -   Unless you pay
         -   And even then, out-of-institution/out-of-country hosting can be problematic
     -   Con: can be shut down, purchased, etc.
-
-## Institutional Barriers
-
-Sharing is the ideal for science,
-but many institutions place restrictions on sharing,
-for example to protect potentially patentable intellectual property.
-If you encounter such restrictions,
-it can be productive to inquire about the underlying motivations
-either to request an exception for a specific project or domain,
-or to push more broadly for institutional reform to support more open science.
-
-## Sharing Code vs. Sharing Publications
-
-Sites like [GitHub][github] are meant for sharing things while they're being developed.
-Services like [arXiV][arxiv] and [figshare][figshare], on the other hand,
-are meant to be used to archive particular snapshots of things for future reference.
-There's obviously overlap between the two -
-in particular, it's possible to tag a particular version of a project in a code repository -
-but as a general rule,
-version control is "where you work"
-while repositories are "where you publish".
+-   Institutional considerations
+    -   Sharing is the ideal for academic research, but:
+        -   Many research software projects aren't academic
+        -   Even publicly-funded academic institutions often place restrictions on sharing,
+            e.g., to protect potentially patentable intellectual property
+    -   *Ask someone*
+        -   It's easier to get forgiveness than permission, but forgiveness isn't guaranteed
+        -   If you encounter restrictions, ask about the underlying motivations
+        -   Can sometimes request exceptions for specific projects
+        -   And understanding reasons helps formulate a push for institutional reform
+-   Sharing code vs. sharing publication
+    -   Sites like GitHub are meant for sharing things while they're being developed
+    -   Services like [arXiV][arxiv] and [figshare][figshare] are for archiving particular snapshots of things for future reference
+    -   There's overlap
+        -   Tagging a version of code in a repository
+        -   Posting a pre-print and updating it later
+    -   Workflow: tag on GitHub, get a DOI from [Zenodo][zenodo], post pre-print on [arXiv][arxiv], submit to open access journal for publication of record
 
 ## Exercises {#s:hosting-exercises}
 
@@ -78,7 +70,6 @@ If so, who?
 
 ### Where Can I Share My Work?
 
-Does your institution have a repository or repositories that you can
-use to share your papers, data and software?
+Does your institution have a repository or repositories that you can use to share your papers, data, and software?
 
 {% include links.md %}
