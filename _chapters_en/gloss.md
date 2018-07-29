@@ -9,12 +9,21 @@ FIXME
 **Annotated tag**{:#g:annotated-tag}:
 FIXME
 
+**Build manager**{:#g:build-manager}:
+FIXME
+
+**Checklist**{:#g:checklist}:
+FIXME
+
 **Commons**{:#g:commons}:
 something managed jointly by a community
 according to rules they themselves have evolved and adopted
 [[Boll2014](#CITE)].
 
 **Creative Commons - Attribution License**{:#g:cc-by} (CC-BY):
+FIXME
+
+**Dependency**{#g:dependency}:
 FIXME
 
 **End-user programmer**{:#g:end-user-programmer}:
@@ -32,6 +41,9 @@ FIXME
 FIXME
 
 **GNU Public License**{:#g:gpl} (GPL):
+FIXME
+
+**Hashing**{:#g:hashing}:
 FIXME
 
 **MIT License**{:#g:mit-license}:

@@ -1,8 +1,8 @@
 ---
 permalink: "/en/automation/"
-title: "Automate Frequent Tasks"
+title: "Automation"
 questions:
--   "How should I handle tasks I do repeatedly?"
+-   "How should I automate tasks I do repeatedly?"
 objectives:
 -   "Explain what build managers were originally designed to do, and what else they are now used to do."
 -   "Make a build file self-explaining."
@@ -15,62 +15,63 @@ keypoints:
 ---
 
 -   DRY: Don't Repeat Yourself
--   Usually applied to nouns (code)
--   Just as true for verbs (actions)
--   The only thing you can accomplish by typing something repeatedly is to get it wrong
-
-## Build Manager
-
--   Use a build manager
-    -   [GNU Make][gnu-make] defined the category, but depends on native shell commands
-    -   [CMake][cmake] is a meta-tool that creates build files for multiple systems
-    -   [SCons][scons] and similar tools define build rules in a full-blown programming language
-    -   Language-specific tools like [rake][rake], [pydoit][pydoit], and [SnakeMake][snakemake]
+    -   Usually applied to nouns (code)
+    -   Just as true for verbs (actions)
+    -   The only thing you can accomplish by typing something repeatedly is to get it wrong
+-   Use a [build manager](#g:build-manager)
+    -   [GNU Make][gnu-make] defined the category
+        -   Has its own (quirky) syntax
+        -   Depends on native shell commands for operations
+    -   [SnakeMake][snakemake] and similar tools are modern descendents
+    -   [SCons][scons], [doit][pydoit], and others use the syntax of a full-blown programming language to achieve the same ends
 -   Originally created to compile multi-file programs efficiently, but can all be used for arbitrary tasks
-    -   Run tests, build packages for release, create reports, ...
-    -   Common pattern: build shell script or utility program, then launch from build file
--   Key feature: dependencies
-    -   "X depends on Y depends on Z"
-    -   Usually implemented using timestamps or hashes
-    -   Not well suited to verbs
--   General workflow tools may be a better fit for actual scientific work
+    -   Run tests
+    -   Build packages for release
+    -   Create reports
+-   Key feature: [dependencies](#g:dependency)
+    -   "A depends on B and C, both of which depend on D"
+    -   If D changes, B and C are rebuilt once, and then A is built
+    -   Tracking can be implemented using timestamps
+        -   Fast to check
+        -   But not always reliable for very short tasks on networked systems
+    -   Or via [file hashes](#g:hashing)
+        -   Slightly slower
+        -   Requires persistent storage
+        -   Reliable across machines
+-   File dependencies aren't always a good base for workflow
+    -   Not all actions produce files
+-   General workflow tools may be a better fit for some kinds of research
     -   [Galaxy][galaxy] is a high-end tool
     -   [doit][pydoit] is a lot easier to start with
     -   Only as stable as the pieces they connect
-
-## Checklists
-
--   A checklist is a build file meant to be executed by human beings
-    -   *[The Checklist Manifesto][gawande-checklist-manifesto]*
-        describes how use of checklists cuts fatalities in surgery significantly,
-        along with many other examples
--   Use them for anything that *can't* be done automatically by a machine
--   Keep in version control
-    -   Ask every new contributor/user to use *and give feedback*
--   Include a contact email address in every checklist
+-   And debugging builds is often challenging, no matter what the tool
+-   A [checklist]{#g:checklist} is a set of build instructions meant to be executed by a human being
+    -   [[Gawa2007](#CITE)] describes how use of checklists cuts fatalities in surgery significantly
+    -   Use them for anything that *can't* be done automatically by a machine
+    -   Keep in version control
+        -   Ask every new contributor/user to use *and give feedback*
+        -   Include a contact email address in every checklist
+-   Most issue-tracking systems ([s:issues](#CHAPTER)) allow you to specify template text for new issues
+    -   These may support tick boxes
+    -   Use them for checklists
 
 ## Exercises {#s:automation-exercises}
 
-### How Do You Manage Your Repository?
-
-Describe in 3-4 bullet points how you actually manage your version control repository.
-How often are you working on several things simultaneously?
-
-## Create a Task list
+### Create a Task list
 
 1.  If your project already uses a build manager,
     what tasks are used most often?
 2.  If your project *doesn't* use a build manager,
     what are the first few tasks you should automate?
 
-## Self-Documenting Build Files
+### Self-Documenting Build Files
 
 The default target in a build file (e.g., `make` with no parameters)
 should print a list of available commands.
 Look at the `Makefile` in this repository to see how this works,
 then modify the build file for your project to do so as well.
 
-## Create a Setup Checklist
+### Create a Setup Checklist
 
 1.  Write a short point-form checklist describing the things you do
     when setting up a new machine to do development on your project.

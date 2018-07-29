@@ -1,6 +1,6 @@
 ---
 permalink: "/en/versioning/"
-title: "Use Version Control"
+title: "Versioning"
 questions:
 -   "What do I need to know about version control beyond commit, push, and pull?"
 objectives:

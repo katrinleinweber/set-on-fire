@@ -1,6 +1,6 @@
 ---
 permalink: "/en/hosting/"
-title: "Host Your Project Responsibly"
+title: "Hosting"
 questions:
 -   "Where should I host my version control repositories?"
 objectives:
