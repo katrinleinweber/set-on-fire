@@ -25,45 +25,54 @@ keypoints:
     -   What a research software project needs to achieve its goals
     -   How to transform an *ad hoc* solo project into a reliable small-team project
 
+## Philosophy of This Material (#s:intro-philosophy)
+
+-   A [commons](#g:commons) is something managed jointly by a community
+    according to rules they themselves have evolved and adopted
+-   A research software project should aim to become a commons
+    -   Its community consists of authors, users of the software, consumers of the research, and funders
+    -   This material is a starting point for rules, but only a starting point:
+        every community should customize them according to local needs
+
 ## Key Differences Between Research Software and Other Projects {#s:intro-characteristics}
 
--	Goals of research software projects
-	-	Help authors answer research questions correctly
-	-	Help other people answer research questions
-		-	Essential for [reproducible research](#g:reproducible-research):
-			if other people can't use the software, how can they review or evaluate the work?
-	-	Earn credit for authors directly
-		-	I.e., for having built the software rather than for the answers the software produces
+-   Goals of research software projects
+    -   Help authors answer research questions correctly
+    -   Help other people answer research questions
+        -   Essential for [reproducible research](#g:reproducible-research):
+            if other people can't use the software, how can they review or evaluate the work?
+    -   Earn credit for authors directly
+        -   I.e., for having built the software rather than for the answers the software produces
 -   Requirements may be either:
     -   Discovered as we go along (exploring)
     -   Relatively stable (engineering)
 -   Research software tends to be *subtle* as well as *complicated*
     -   Control flow may be very simple compared to (for example) a computer game or e-commerce application...
     -   ...but figuring out exactly what coefficients and indexes to use is often hard...
-    -	...and determining whether the software is working correctly can be even harder
-    	-	"If we knew what answer to expect, we'd have published already"
--	Staff are usually [end-user programmers](#g:end-user-programmer) primarily interested in *using* software rather than *building* it
-	-	Graduate students, post-docs, or (occasionally) faculty
-	-	Experts in the problem domain (or becoming such)
-	-	Mostly self-taught or peer-taught programmers
+    -   ...and determining whether the software is working correctly can be even harder
+        -   "If we knew what answer to expect, we'd have published already"
+-   Staff are usually [end-user programmers](#g:end-user-programmer) primarily interested in *using* software rather than *building* it
+    -   Graduate students, post-docs, or (occasionally) faculty
+    -   Experts in the problem domain (or becoming such)
+    -   Mostly self-taught or peer-taught programmers
 -   Some staff may be [research software engineers](#g:rse) (RSEs)
-    -	Discussed in detail in [s:rse](#CHAPTER)
+    -   Discussed in detail in [s:rse](#CHAPTER)
 
 ## What Does 'Done' Look Like? {#s:intro-done}
 
 1.  Authors are reasonably confident that results are correct
-	-	Not the same as "absolutely sure"
+    -   Not the same as "absolutely sure"
     -   As trustworthy as physical experiments or manual data analysis
 2.  Has a citable publication described in an easy-to-find way so that users can credit the project in an academically-digestible form
 3.  Software can be used by people other than original authors without heroic effort
-    -	"Without heroic effort": it must be possible for people other than the authors to figure it out and use it in less time than it would take to write their own
+    -   "Without heroic effort": it must be possible for people other than the authors to figure it out and use it in less time than it would take to write their own
     -   As noted above, reproducible research is impossible without this
-    -	Those other people must also be reasonably confident that results are correct
+    -   Those other people must also be reasonably confident that results are correct
 4.  Fast enough to be worth using
-	-	"Fast enough" includes time to find, time to install, time to figure out, and *then* time to run
+    -   "Fast enough" includes time to find, time to install, time to figure out, and *then* time to run
 5.  Small changes and extensions are easy
     -   E.g., researchers can extend the software to read data in a slightly different format, introduce a new sorting method or scaling factor, etc., without doing a wholesale rewrite
-    -	Nobody has solved the "large changes are easy" problem yet...
+    -   Nobody has solved the "large changes are easy" problem yet...
 6.  Follows community norms so that people can (and hopefully will) adopt it and maintain it
     -   I.e., it is [sustainable software](g:#sustainable-software)
 
@@ -71,18 +80,18 @@ keypoints:
 
 -   From single author-user to 3x6 (three people for six months)
 -   Contributors are usually time-slicing other 
--	Contributors are primarily rewarded for their results, not the software itself
+-   Contributors are primarily rewarded for their results, not the software itself
 -   "Everybody makes coffee", i.e., little or no specialization of roles
--	See [s:guide-design](#SECTION) for full descriptions of learner personas
+-   See [s:guide-design](#SECTION) for full descriptions of learner personas
 
 ## Setup {#s:intro-setup}
 
--	Programming experience
-	-	Be able to write functions in [Python][python], [R][r], or [MATLAB][matlab]
--	Prior exposure to the [Unix shell][bash]
-	-	E.g., the [Software Carpentry introduction to the Unix Shell][swc-shell]
--	Some previous experience using [Git][git] and a [GitHub][github] account
-	-	E.g., the [Software Carpentry introduction to Git][swc-git] or [[Blis2016](#CITE)]
+-   Programming experience
+    -   Be able to write functions in [Python][python], [R][r], or [MATLAB][matlab]
+-   Prior exposure to the [Unix shell][bash]
+    -   E.g., the [Software Carpentry introduction to the Unix Shell][swc-shell]
+-   Some previous experience using [Git][git] and a [GitHub][github] account
+    -   E.g., the [Software Carpentry introduction to Git][swc-git] or [[Blis2016](#CITE)]
 
 ## Exercises {#s:intro-exercises}
 

@@ -56,9 +56,10 @@ toc:
   lessons:
   - /intro/
   - /rse/
-  - /project/
+  - /layout/
   - /versioning/
   - /hosting/
+  - /data/
   - /automation/
   - /robust/
   - /issues/
@@ -67,6 +68,7 @@ toc:
   - /review/
   - /testing/
   - /continuous/
+  - /publishing/
   - /agile/
   - /sturdy/
   - /tdd/
