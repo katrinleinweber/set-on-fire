@@ -15,15 +15,19 @@ keypoints:
 
 -   Research is becoming more compute intensive
     -   Modeling, simulation, data analysis, data management, ...
--   Few scientists have any formal training in software development
+-   Research *doesn't* mean "academic"
+    -   Most data scientists are doing research
+    -   Applying results instead of acting on them
+-   Most researchers don't have any training in software development or community leadership
 -   There is much more to a research software project than just code
     -   *Data* must be stored, cleaned, and tracked
     -   Code and data must be *structured* so that they are findable
     -   There must be a *development process* governing who does what, in what order, and how
-    -   Developers, users, funders, and consumers of research results must *communicate*
+    -   Developers, users, funders, and consumers of research results must be *communicate*...
+    -   ...and be *mentored*
 -   This training will discuss:
     -   What a research software project needs to achieve its goals
-    -   How to transform an *ad hoc* solo project into a reliable small-team project
+    -   How to transform *ad hoc* solo projects into sustainable, reliable small-team projects
 
 ## Philosophy of This Material (#s:intro-philosophy)
 
