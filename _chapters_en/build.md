@@ -46,7 +46,7 @@ keypoints:
     -   Only as stable as the pieces they connect: workflows can rust if not maintained
     -   [Common Workflow Language][cwl] is an attempt to unify some of these tools
 -   And debugging builds is often challenging, no matter what the tool
--   A [checklist]{#g:checklist} is a set of build instructions meant to be executed by a human being
+-   A [checklist](#g:checklist) is a set of build instructions meant to be executed by a human being
     -   [[Gawa2007](#CITE)] describes how use of checklists cuts fatalities in surgery significantly
     -   Use them for anything that *can't* be done automatically by a machine
     -   Keep in version control

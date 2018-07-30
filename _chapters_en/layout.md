@@ -24,8 +24,7 @@ keypoints:
     -   Documentation and manuscripts in `doc/`
 
 <figure>
-  FIXME
-  <!-- <img src="../../files/noble.svg" alt="Noble's Rules" /> -->
+  <img src="../../files/placeholder.png" alt="Noble's Rules" />
   <figcaption id="f:noble">Noble's Rules</figcaption>
 </figure>
 

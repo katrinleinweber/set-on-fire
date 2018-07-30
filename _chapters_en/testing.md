@@ -46,6 +46,13 @@ keypoints:
 -   Tests should be isolated
     -   Actions of one test should not affect actions of other tests
     -   I.e., should be able to run in arbitrary order with identical results
+-   Include a small test set in every release that can be run to ensure the software is actually working
+    -   Not enough to be right - have to be *seen* to be right
+    -   Not the same as a comprehensive regression test suite for use in development
+        -   ...which you should also have
+    -   Regression tests may take too long to run, and output may not be actionable
+    -   So provide smaller suite that says "am I set up correctly?"
+    - Ideally, also serves as examples of use
 
 ## Exercises {#s:testing-exercises}
 

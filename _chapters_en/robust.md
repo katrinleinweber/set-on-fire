@@ -1,6 +1,6 @@
 ---
 permalink: "/en/robust/"
-title: "Make the Software Robust"
+title: "Robust Software"
 questions:
 -   "How can I make it easier for people to find out what my project does?"
 -   "How can I make it easier for people to install my software?"
@@ -23,7 +23,7 @@ keypoints:
 -   "Use semantic versioning (`major.minor.patch`) to identify software versions."
 -   "Make old versions of software available."
 -   "Do not require root permissions or other special privileges to install software."
--   "Do not use hard-coded paths in software."
+-   "Do not use fixed paths in software."
 -   "Provide command-line parameters for commonly-changed options."
 -   "Provide hierarchical configuration files for *all* options."
 -   "Do not invent your own syntax for configuration files."
@@ -31,9 +31,9 @@ keypoints:
 -   "Always produce identical results for particular inputs."
 ---
 
--   *Robust* is the difference between "works for me on my machine"
+-   [Taschuk's Rules][taschuk-rules] describe the difference between "works for me on my machine"
     and "works for someone I've never met on a cluster I've never heard of"
-    -   Rules are described in [Taschuk's Rules][taschuk-rules]
+    -   See [[Tasc2017](#CITE)] for a full description
 -   Have a README that briefly explains what the software does and what its dependencies are
     -   For humans to read *before* installing
 -   Tell the user what could be done
@@ -41,19 +41,36 @@ keypoints:
     -   Include version (discussed below)
 -   Tell the user what was *actually* done
     -   Log actions by writing messages to a findable place
-    -   Use a logging library that allows you to control level of detail
+    -   Use a [logging framework](#g:logging-framework) that allows you to control level of detail ([s:robust-logging](#SECTION))
 -   Version your releases
     -   Semantic versioning: `major.minor.patch`
     -   Release date versioning: `yyyy.vv`
 -   Update the version number every time you release a change (however small)
     -   Tempting not to do a full release when "it was just a little change"
+    -   Someone, somewhere, will curse your name and memory
 -   Make old versions available
+    -   Tagging releases in a Git repo is a good way to do this
 -   Do not require root or other special privileges to install
     -   Users may have this on their laptop, but probably don't have it on the cluster
--   Eliminate hard-coded paths in the software
-    -   `/Users/kermit/run_5/data` probably doesn't exist on other people's machines
+-   Eliminate fixed paths in the software
+    -   `/Users/standage/run_5/try-this.config` probably doesn't exist on other people's machines...
 -   Provide command-line parameters for commonly-changed options
     -   Also makes program easy to control from shell scripts
+-   Produce identical results when given identical inputs
+    -   Absolutely necessary for reproducible research
+    -   Means external control of random number generation seeds,
+        aggregation order for floating point results,
+        dates and times,
+        etc.
+    -   Probably the hardest thing on this list for many projects
+-   Discuss testing in [s:testing](#CHAPTER)
+
+## Logging {#s:robust-logging}
+
+FIXME
+
+## Configuration Files {#s:robust-config}
+
 -   Use configuration files for less frequently changed options
 -   Frequently use multiple overlaid configuration files
     -   System-level configuration file created during installation for things like cluster name
@@ -65,24 +82,6 @@ keypoints:
     -   YAML is increasingly popular
     -   "If you have to write a parser, you've done something wrong."
     - ...or someone upstream from you did
--   How to connect to other programs?
-    -   Use a shell script to combine everything: universal but limited
-    -   Run your program in a sub-process: ditto
-    -   Build a library with a command-line wrapper: flexible, but more work for users
--   Include a small test set that can be run to ensure the software is actually working
--   Not enough to be right - have to be *seen* to be right
-    -   Not the same as a comprehensive regression test suite for use in development
-        -   Which you should also have...
-    -   Regression tests may take too long to run, and output may not be actionable
-    -   So provide smaller suite that says "am I set up correctly?"
-    - Ideally, also serves as examples of use
--   Produce identical results when given identical inputs
-    -   Absolutely necessary for reproducible research
-    -   Means external control of random number generation seeds,
-        aggregation order for floating point results,
-        dates and times,
-        etc.
-    -   Probably the hardest thing on this list for many projects
 
 ## Exercises {#s:robust-exercises}
 
@@ -112,11 +111,11 @@ how will you and they find out which version of the software they have?
 1.  What directories does your software add files to when it is installed?
 2.  What new directories does it create?
 
-### Hard-coded Paths
+### Fixed Paths
 
 1.  What files does your software read and/or write?
 2.  How do you know?
-3.  Which of these are referenced by fixed (hard-coded) paths?
+3.  Which of these are referenced by fixed paths?
 
 ### Common and Rare
 
@@ -129,14 +128,6 @@ how will you and they find out which version of the software they have?
 1.  Can some or all of your program's options be specified in an external configuration file?
 2.  If so, what data format do those files use?
 3.  If not, is it worth adding that capability?
-
-### Using Your Project as a Component
-
-Suppose someone wants to use your software as part of a larger program
-written in a language other than the one you use.
->
-1.  What's the simplest way for them to do this?
-2.  What *won't* they be able to do?
 
 ### Is This Turned On?
 

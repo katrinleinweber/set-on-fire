@@ -29,7 +29,7 @@ keypoints:
     -   What a research software project needs to achieve its goals
     -   How to transform *ad hoc* solo projects into sustainable, reliable small-team projects
 
-## Philosophy of This Material (#s:intro-philosophy)
+## Philosophy of This Material {#s:intro-philosophy}
 
 -   A [commons](#g:commons) is something managed jointly by a community
     according to rules they themselves have evolved and adopted

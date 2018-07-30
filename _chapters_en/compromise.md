@@ -30,8 +30,8 @@ keypoints:
     -   Usually necessary to get a project off the ground
     -   Complicates sustained development
         -   Maintaining and extending requires going back and cleaning up
-        -   Debt must be "paid down"...usually with interest!
--   None of the best practices discussed in this workshop are a goal unto themselves!
+        -   Debt must be "paid down"...usually with interest
+-   None of the best practices discussed in this workshop are a goal unto themselves
     -   They are means to an end
     -   What are the ends of your project?
         -   This will depend on whether the software is:

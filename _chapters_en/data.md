@@ -1,5 +1,5 @@
 ---
-permalink: "/en/project/"
+permalink: "/en/data/"
 title: "Managing Data"
 questions:
 -   "FIXME?"
