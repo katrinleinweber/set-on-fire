@@ -23,7 +23,7 @@ according to rules they themselves have evolved and adopted
 **Creative Commons - Attribution License**{:#g:cc-by} (CC-BY):
 FIXME
 
-**Dependency**{#g:dependency}:
+**Dependency**{:#g:dependency}:
 FIXME
 
 **End-user programmer**{:#g:end-user-programmer}:
@@ -44,6 +44,9 @@ FIXME
 FIXME
 
 **Hashing**{:#g:hashing}:
+FIXME
+
+**Logging framework**{:#g:logging-framework}:
 FIXME
 
 **MIT License**{:#g:mit-license}:
@@ -83,6 +86,9 @@ FIXME
 FIXME
 
 **Test runner**{:#g:test-runner}:
+FIXME
+
+**Ticketing**{:#g:ticketing}:
 FIXME
 
 **Unit test**{:#g:unit-test}:

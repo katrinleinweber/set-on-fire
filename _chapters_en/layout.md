@@ -39,7 +39,7 @@ keypoints:
     -   Bad: `antelope field data (latest).csv`
     -   Good: `castratragus-lemuria-2018-06.csv`
     -   This "species-location-year-month" format makes it easy to select files by species, location, or date
-    -   Which in turn will simplify automation ([s:automation](#CHAPTER))
+    -   Which in turn will simplify automation ([s:build](#CHAPTER))
 -   Group similar files in meaningfully-named directories
     -   Bad: putting the results your colleague just emailed you in `todo/*.csv`
     -   Good: creating `results/standage-deduplicated-2018-06/` and putting files there

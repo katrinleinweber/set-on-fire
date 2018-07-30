@@ -1,5 +1,5 @@
 ---
-permalink: "/en/project/"
+permalink: "/en/publishing/"
 title: "Publishing"
 questions:
 -   "FIXME?"
