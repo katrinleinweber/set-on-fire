@@ -1,6 +1,6 @@
 ---
-permalink: "/en/automation/"
-title: "Automation"
+permalink: "/en/build/"
+title: "Automated Builds"
 questions:
 -   "How should I automate tasks I do repeatedly?"
 objectives:
@@ -56,7 +56,7 @@ keypoints:
     -   These may support tick boxes
     -   Use them for checklists
 
-## Exercises {#s:automation-exercises}
+## Exercises {#s:build-exercises}
 
 ### Create a Task list
 
