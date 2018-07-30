@@ -62,7 +62,6 @@ definitions if that's done.
 [mckinley-boring]: http://mcfunley.com/choose-boring-technology
 [mit-license]: http://opensource.org/licenses/mit-license.html
 [morea]: https://morea-framework.github.io/
-[morin-software-licensing]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598
 
 [noble-rules]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
 [numfocus]: http://numfocus.org/
@@ -112,6 +111,7 @@ definitions if that's done.
 
 [t3]: http://teachtogether.tech
 [taschuk-rules]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
+[tldr-gpl]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
 [training]: http://swcarpentry.github.io/instructor-training/
 [travis-ci]: https://travis-ci.org/
 [travis-pr]: https://docs.travis-ci.com/user/pull-requests
