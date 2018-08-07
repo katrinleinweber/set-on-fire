@@ -17,7 +17,7 @@ keypoints:
     -   Modeling, simulation, data analysis, data management, ...
 -   Research *doesn't* mean "academic"
     -   Most data scientists are doing research
-    -   Applying results instead of acting on them
+    -   Apply findings instead of publishing them
 -   Most researchers don't have any training in software development or community leadership
 -   There is much more to a research software project than just code
     -   *Data* must be stored, cleaned, and tracked
