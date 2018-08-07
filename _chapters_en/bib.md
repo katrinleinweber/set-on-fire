@@ -9,6 +9,8 @@ title: "Bibliography"
 
 **Gawa2007**{:#Gawa2007}: Atul Gawande: "The Checklist". *The New Yorker*, Dec 2007, <https://www.newyorker.com/magazine/2007/12/10/the-checklist>. *Describes the life-saving effects of simple checklists.*
 
+**Mori2012**{:#Mori2012}: Andrew Morin and Jennifer Urban AND Piotr Sliz: "A Quick Guide to Software Licensing for the Scientist-Programmer". *PLOS Computational Biology*, 8(7), Jul 2012, <https://doi.org/10.1371/journal.pcbi.1002598>. *A short introduction to software licensing for non-specialists.*
+
 **Pere2013**{:#Pere2013}: Santiago Perez De Rosso and Daniel Jackson: "What's Wrong with Git? A Conceptual Design Analysis". *What's Wrong with Git? A Conceptual Design Analysis*, 2013, <https://doi.org/10.1145/2509578.2509584>. *\bibnoteCompares Git's actual operation with its users' conceptual model, highlighting the errors and confusion that result from the differences.*
 
 **Pere2016**{:#Pere2016}: Santiago Perez De Rosso and Daniel Jackson: "Purposes, Concepts, Misfits, and a Redesign of Git". *Purposes, Concepts, Misfits, and a Redesign of Git*, 2016, <https://doi.org/10.1145/2983990.2984018>. *\bibnoteDescribes a usability-based redesign of Git, but finds that most people have either mastered Git and are defensive about its quirks, or think that its poor usability is so obvious as to not need belaboring.*

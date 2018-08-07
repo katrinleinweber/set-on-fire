@@ -16,7 +16,7 @@ This lesson was developed using the methods in *[Teaching Tech Together][t3]* [[
     -   Know what unit testing is, but may not actually have written many tests
     -   No previous exposure to project management or software project management tools
 -   Projects
-    -   3×6: three people working for about six months
+    -   3x6: three people working for about six months
     -   Both numbers may vary up and down, but:
         -   Group is small enough to have lunch together (i.e., a single cohesive unit)
         -   Timescale is short enough that personnel turnover isn't an issue

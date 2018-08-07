@@ -52,7 +52,7 @@ keypoints:
 
 <figure>
   <img src="../../files/prioritize.png" alt="Prioritization" />
-  <figcaption id="f:prioritize">Prioritization</figcaption>
+  <figcaption id="f:sturdy-prioritize">Prioritization</figcaption>
 </figure>
 
 -   Create a schedule
