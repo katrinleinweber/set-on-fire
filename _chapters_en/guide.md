@@ -7,6 +7,25 @@ title: "Instructors' Guide"
 
 This lesson was developed using the methods in *[Teaching Tech Together][t3]* [[Wils2018](#CITE)].
 
+### Learner Persona
+
+**Standage**
+
+Standage, 33, is doing a post-doc in genomics at a research-intensive university in western Canada.
+Over the past six years, she has created a set of R packages for mapping paleogenomic data
+that are now being used by a dozen of her collaborators.
+Her coding style has evolved considerably over that time,
+and she now has permission from her supervisor to spend the summer bringing them up to date and documenting them
+so that they can write a paper about them (and possibly commercialize them).
+
+While Standage understands what a well-formed R package looks like,
+she knows less about robust development processes,
+release management,
+and how to convince other people to file bugs and make contributions for software they didn't write.
+This training will tell her which of these things she ought to worry about right now,
+how to do them,
+and how to tell when she (or others) are doing them right.
+
 ### Brainstorming
 
 -   Audience
@@ -45,25 +64,6 @@ This lesson was developed using the methods in *[Teaching Tech Together][t3]* [[
     -   [Noble's Rules][noble-rules]
     -   [Jenkins' Project Primer][jenkins-primer]
     -   [Taschuk's Rules][taschuk-rules]
-
-### Learner Personas
-
-**Standage**
-
-Standage, 33, is doing a post-doc in genomics at a research-intensive university in western Canada.
-Over the past six years, she has created a set of R packages for mapping paleogenomic data
-that are now being used by a dozen of her collaborators.
-Her coding style has evolved considerably over that time,
-and she now has permission from her supervisor to spend the summer bringing them up to date and documenting them
-so that they can write a paper about them (and possibly commercialize them).
-
-While Standage understands what a well-formed R package looks like,
-she knows less about robust development processes,
-release management,
-and how to convince other people to file bugs and make contributions for software they didn't write.
-This training will tell her which of these things she ought to worry about right now,
-how to do them,
-and how to tell when she (or others) are doing them right.
 
 ### Desired Results
 
@@ -107,9 +107,15 @@ and how to tell when she (or others) are doing them right.
 -   ...[Travis-CI][travis-ci] for continuous integration.
 -   ...[Sphinx][sphinx] for documentation generation.
 -   ...[Pip and Setuptools][python-packaging] to create and install packages.
--   ...[Waffle][waffle] for backlog management.
 
-## General {#s:guide-general}
+## Learning Objectives
+
+{% assign translations=site.translations[page.language] %}
+{% include summary.html which="objectives" language=page.language translations=translations heading="h3" %}
+
+## Other Guidance
+
+### General
 
 It's all right not to get through the whole lesson.
 :   This lesson is designed for people who have never programmed before,
@@ -130,14 +136,14 @@ Don't tell people to Google things.
     other folks were confused enough to bother with a blog or Stack Overflow post,
     so it's probably not trivial.
 
-## Setup {#s:guide-setup}
+### Setup
 
 In order to do the exercises in this course,
 participants will need a [GitHub][github] account,
 and will need to be able to write short programs on their laptops.
 (We use Python in examples, but any modern language will do.)
 
-## Versioning {#s:guide-versioning}
+### Versioning
 
 - Before the workshop, make a copy of the [SNDS repository](https://github.com/standage/snds-demo)
   by cloning it to your local system and pushing it to a new empty repo on Github
@@ -148,7 +154,7 @@ and will need to be able to write short programs on their laptops.
 - The second pull request will likely have a merge conflict.
   This is now super simple to handle in Github's web interface, and can also be covered in a very brief demo.
 
-## Pragmatism {#s:guide-pragmatism}
+### Pragmatism
 
 -   You may need to meet people halfway if you want your project to grow
 -   In particular, your collaborators might not be using version control
@@ -173,7 +179,7 @@ and will need to be able to write short programs on their laptops.
 > down to "just give me a Word document with tracked changes," or
 > similar.
 >
-> - [Stephen Turner][good-enough]
+> --- [Stephen Turner][good-enough]
 
 > Google Docs excels at easy sharing, collaboration, simultaneous
 > editing, commenting and reply-to-commenting. Sure, one can approximate
@@ -187,12 +193,11 @@ and will need to be able to write short programs on their laptops.
 > merely a tool to help achieve that, and comes with so much overhead
 > and baggage that it is often not worth the effort.
 >
-> [Arjun Raj][quote-raj]
+> --- [Arjun Raj][quote-raj]
 
 > Normal humans don't work like programmers expect them to
 > because programmers haven't built tools that would let them.  
 >
-> - [Mike Hoye][quote-hoye]
-
+> --- [Mike Hoye][quote-hoye]
 
 {% include links.md %}

@@ -19,7 +19,6 @@
           {{site.marker.start}}
           <h1>{% if page.root %}{{site.title}}{% else %}{{page.title}}{% endif %}</h1>
           {% include listblock.html title=translations.questions items=page.questions %}
-          {% include listblock.html title=translations.objectives items=page.objectives %}
           {{content}}
           {% include listblock.html title=translations.keypoints items=page.keypoints %}
           {{site.marker.end}}
