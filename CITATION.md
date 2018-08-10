@@ -2,10 +2,10 @@
 
 Please cite this work as:
 
-> Daniel Standage and Greg Wilson: "The Research Software Survival Guide".
-> https://gvwilson.github.io/rssg, 2018.
+> Greg Wilson (ed.): "Set On Fire: How to Create a Research Software Commons".  <https://merely-useful.github.io/set-on-fire/>, 2018.
 
 ## Contributors
 
-- [Daniel Standage](https://standage.github.io/)
-- [Greg Wilson](https://third-bit.com)
+-   C. Titus Brown
+-   Daniel Standage
+-   Greg Wilson

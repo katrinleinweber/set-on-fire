@@ -12,6 +12,7 @@ definitions if that's done.
 [bartel-recalibrate]: http://www.tombartel.de/blog/recalibrate-your-productivity-sensors/
 [bitbucket]: http://bitbucket.org
 [bpco]: https://www.amazon.com/Building-Powerful-Community-Organizations-Personal/dp/0977151808/
+[brown-titus]: http://ivory.idyll.org/
 
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
@@ -102,6 +103,7 @@ definitions if that's done.
 [software-paper-authorship]: http://ivory.idyll.org/blog/2015-authorship-on-software-papers.html
 [sourceforge]: http://sourceforge.net
 [sphinx]: http://www.sphinx-doc.org/
+[standage-daniel]: https://standage.github.io/
 [steinmacher-barriers]: http://www.igor.pro.br/publica/papers/GSD_CSCW2014.pdf
 [stupidity-driven]: http://ivory.idyll.org/blog/2014-research-coding.html
 [styles]: https://github.com/swcarpentry/styles/
@@ -118,6 +120,7 @@ definitions if that's done.
 
 [waffle]: http://waffle.io
 [what-is-rse]: http://www.rse.ac.uk/who.html
+[wilson-greg]: http://third-bit.com
 
 [yaml]: http://yaml.org/
 

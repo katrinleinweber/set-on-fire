@@ -5,7 +5,12 @@ title: "Citation"
 
 Please cite this work as:
 
-> Daniel Standage and Greg Wilson: "The Research Software Survival Guide".
-> https://gvwilson.github.io/rssg, 2018.
+> {{site.author}} (ed.): "{{site.title}}: {{site.subtitle}}".  <{{site.website}}>, {{site.copyrightyear}}.
+
+## Contributors
+
+-   [C. Titus Brown][brown-titus]
+-   [Daniel Standage][standage-daniel]
+-   [Greg Wilson][wilson-greg]
 
 {% include links.md %}
