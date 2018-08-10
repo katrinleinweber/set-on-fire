@@ -56,8 +56,6 @@ definitions if that's done.
 
 [kuchner-marketing]: https://www.amazon.com/Marketing-Scientists-Shine-Tough-Times/dp/1597269948/
 
-[lint]: https://en.wikipedia.org/wiki/Lint_(software)
-
 [make-lesson]: https://swcarpentry.github.io/make-novice/
 [mckinley-boring]: http://mcfunley.com/choose-boring-technology
 [mit-license]: http://opensource.org/licenses/mit-license.html
@@ -80,7 +78,6 @@ definitions if that's done.
 [python-lesson]: https://swcarpentry.github.io/python-novice-gapminder/
 [python-logging-tutorial]: https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 [python-packaging]: https://packaging.python.org/
-[python-travis-tutorial]: https://www.smartfile.com/blog/testing-python-with-travis-ci/
 [pyyaml]: https://pypi.python.org/pypi/PyYAML
 
 [quote-hoye]: https://twitter.com/mhoye/status/805611816197955585
@@ -113,7 +110,6 @@ definitions if that's done.
 [taschuk-rules]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
 [tldr-gpl]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
 [training]: http://swcarpentry.github.io/instructor-training/
-[travis-ci]: https://travis-ci.org/
 [travis-pr]: https://docs.travis-ci.com/user/pull-requests
 [twitter-grief]: https://twitter.com/rseroter/status/788028797144535040
 [tyranny-structurelessness]: http://www.jofreeman.com/joreen/tyranny.htm
