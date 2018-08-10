@@ -9,6 +9,8 @@ title: "Bibliography"
 
 **Gawa2007**{:#Gawa2007}: Atul Gawande: "The Checklist". *The New Yorker*, Dec 2007, <https://www.newyorker.com/magazine/2007/12/10/the-checklist>. *Describes the life-saving effects of simple checklists.*
 
+**Kulk2013**{:#Kulk2013}: Chinmay Kulkarni, Koh Pang Wei, Huy Le, Daniel Chia, Kathryn Papadopoulos, Justin Cheng, Daphne Koller, and Scott R. Klemmer: "Peer and Self Assessment in Massive Online Classes". *ACM Transactions on Computer-Human Interaction*, 20(6), Dec 2013, <https://doi.org/10.1145/2505057>. *Shows that peer grading can be as effective at scale as expert grading.*
+
 **Mori2012**{:#Mori2012}: Andrew Morin and Jennifer Urban AND Piotr Sliz: "A Quick Guide to Software Licensing for the Scientist-Programmer". *PLOS Computational Biology*, 8(7), Jul 2012, <https://doi.org/10.1371/journal.pcbi.1002598>. *A short introduction to software licensing for non-specialists.*
 
 **Pere2013**{:#Pere2013}: Santiago Perez De Rosso and Daniel Jackson: "What's Wrong with Git? A Conceptual Design Analysis". *What's Wrong with Git? A Conceptual Design Analysis*, 2013, <https://doi.org/10.1145/2509578.2509584>. *\bibnoteCompares Git's actual operation with its users' conceptual model, highlighting the errors and confusion that result from the differences.*

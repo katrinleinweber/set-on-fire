@@ -65,8 +65,7 @@ keypoints:
     -   Graduate students, post-docs, or (occasionally) faculty
     -   Experts in the problem domain (or becoming such)
     -   Mostly self-taught or peer-taught programmers
--   Some staff may be [research software engineers](#g:rse) (RSEs)
-    -   Discussed in detail in [s:rse](#CHAPTER)
+-   Some staff may be research software engineers (discussed below)
 
 ## What Does 'Done' Look Like? {#s:intro-done}
 
@@ -103,7 +102,7 @@ keypoints:
     -   Design, write, test, and maintain software
     -   Manage data (or build tools to fetch, filter, organize, and process data)
     -   Deploy and run software (overlaps with sys admins)
-    -   Software lifecycle management ([s:compromise](#CHAPTER))
+    -   Software lifecycle management
         -   Often de facto process owners
     -   Training and mentoring ([s:mentor](#CHAPTER)
 -   What do RSEs need to know?

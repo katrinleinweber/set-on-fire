@@ -34,7 +34,7 @@ keypoints:
     -   [GitHub][github], [GitLab][gitlab], [BitBucket][bitbucket], [SourceForge][sourceforge], etc.
     -   All provide web interface to
         -   Create, view, and edit projects
-        -   Communication and project management tools ([s:issues](#CHAPTER))
+        -   Communication and project management tools
     -   Pro: economies of scale
     -   Pro: network effects (potential collaborators probably already know how to use them)
     -   Con: public (or only a limited amount of privacy)

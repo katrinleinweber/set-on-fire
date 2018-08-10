@@ -45,10 +45,15 @@ keypoints:
     -   Detect duplication
 -   For adoption, start with "at least one round of code review per feature"
     -   Where a feature is "a body of work that took less than a week"
--   See [Cohen et al][smart-bear-code-review] for more details
+    -   See [Cohen et al][smart-bear-code-review] for more details
+-   Important to show people reviews (and grade them) so that they learn what to look for [[Kulk2013](#CITE)]
+    -   Reduces false positives and false negatives
+
+## Pair Programming
+
 -   *Pair programming* is real-time code review
     -   The *driver* does the typing
-    -   The "navigator" watches and comments
+    -   The *navigator* watches and comments
     -   Every hour or so, the pair switches roles
     -   The navigator is effectively giving real-time code review
 -   Benefits

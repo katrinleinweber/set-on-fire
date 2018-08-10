@@ -104,7 +104,6 @@ and how to tell when she (or others) are doing them right.
 
 -   ...[GitHub][github] for project management (issues and pull requests).
 -   ...[Make][make-lesson] for task automation.
--   ...[Travis-CI][travis-ci] for continuous integration.
 -   ...[Sphinx][sphinx] for documentation generation.
 -   ...[Pip and Setuptools][python-packaging] to create and install packages.
 
