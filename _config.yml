@@ -1,17 +1,17 @@
 # Display.
-title: "Building a Research Software Commons"
-subtitle: "How to go from 'I can use it on my machine' to 'we can use it wherever we want'."
+title: "Set On Fire"
+subtitle: "How to create a research software commons."
 author: "Greg Wilson"
 copyrightyear: "2018"
-repo: "https://github.com/gvwilson/brsc/"
+repo: "https://github.com/merely-useful/set-on-fire/"
 email: gvwilson@third-bit.com
 isbn: "000-0-0000000-0"
-website: "https://gvwilson.github.io/brsc/"
+website: "https://merely-useful.github.io/set-on-fire/"
 purchase: ""
 paypal: ""
 
 # Theme color.
-background: "#e0f0e0"
+background: "#f0f0fa"
 
 # Jekyll settings.
 highlighter: rouge
