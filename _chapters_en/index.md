@@ -4,11 +4,15 @@ root: true
 redirect_from: "/"
 ---
 
+> Build a man a fire, and he'll be warm for a day. Set a man on fire, and he'll be warm for the rest of his life.
+>
+> -- Terry Pratchett
+
 This workshop will show participants how to turn an individual research software project into a research software commons,
 i.e., how to go from "I can use it on my machine" to "we can use it wherever we want".
-Please see <https://gvwilson.github.io/brsc/> for a rendered version of this material
+Please see <{{site.website}}> for a rendered version of this material
 or run `make` in this directory for a list of helpful commands.
-Please also see <https://github.com/gvwilson/youbou> for notes on the template used for this site,
+Please also see <https://github.com/merely-useful/youbou> for notes on the template used for this site,
 and <http://teachtogether.tech> for our instructional design methodology.
 
 Topics covered include:
