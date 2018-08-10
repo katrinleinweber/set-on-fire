@@ -1,8 +1,8 @@
 ---
-permalink: "/en/data/"
-title: "Managing Data"
+permalink: "/en/provenance/"
+title: "Provenance"
 questions:
--   "FIXME?"
+-   "FIXME"
 objectives:
 -   "FIXME"
 keypoints:
@@ -11,7 +11,7 @@ keypoints:
 
 FIXME
 
-## Exercises {#s:data-exercises}
+## Exercises {#s:provenance-exercises}
 
 FIXME
 

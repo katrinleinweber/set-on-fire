@@ -55,13 +55,11 @@ defaults:
 toc:
   lessons:
   - /intro/
-  - /rse/
   - /hosting/
-  - /data/
   - /licensing/
+  - /provenance/
   - /packaging/
   - /review/
-  - /continuous/
   - /agile/
   - /sturdy/
   - /compromise/
