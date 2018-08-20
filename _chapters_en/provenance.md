@@ -333,7 +333,7 @@ related, and worth mentioning.
 ## Thomas Morrell
 
 I think providing a environment that others can use is an important part of the
-provenance question.  It’s one thing to document dependencies, but in order to
+provenance question.  It's one thing to document dependencies, but in order to
 really make sure they are correct and complete you need to test them in a
 compute environment.  https://mybinder.org/ is a great and free example of this
 setup.  If you provide dependencies in standard text files, everyone can re-run
