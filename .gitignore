@@ -4,9 +4,14 @@
 *.log
 *.out
 *.toc
+*.egg-info
 *~
+.coverage
 .jekyll-metadata
+.pytest_cache
 __pycache__
 _site
-tex_*/inc
-tex_*/book.pdf
+dist
+htmlcov
+tex/*/book.pdf
+tex/*/inc

@@ -7,7 +7,7 @@ Please cite this work as:
 
 > {{site.author}} (ed.): "{{site.title}}: {{site.subtitle}}".  <{{site.website}}>, {{site.copyrightyear}}.
 
-## Contributors
+**Contributors**
 
 -   [C. Titus Brown][brown-titus]
 -   [Daniel Standage][standage-daniel]
